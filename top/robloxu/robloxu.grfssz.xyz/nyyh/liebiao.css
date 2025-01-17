@@ -1,0 +1,124 @@
+*{  margin:0px; padding:0px}
+body{font-size:12px;  }
+ul li{list-style:none}
+.frameee{width:960px; margin:0px auto; line-height:24px; font-weight:bold; color:#373333;}
+.frame1{width:873px; margin:0px auto; background:url(bg1.gif); height:32px; padding-right:107px; padding-top:140px; text-align:right}
+.frame1 a{color:#f96c27; text-decoration:none}
+.frame2{width:960px; margin:0px auto; }
+.aa{ border:1px solid #c4c4c4;border-bottom:0px;border-top:0px}
+.denglubiaoti{background:#d5d1d0; height:22px; font-size:14px; font-weight:bold; color:#3f3f3d; padding-left:5px; padding-top:10px; border:1px solid #c4c4c4; border-bottom:0px}
+.yhm{ padding-left:20px; padding-top:13px}
+.kyye{ padding-left:20px; padding-top:13px}
+.dkjl{ padding-left:14px; padding-top:15px; border:none}
+.czjl{ padding-left:14px; padding-top:9px; border:none}
+.zhcz{ padding-left:14px; padding-top:9px; border:none}
+.bzzx{ padding-left:14px; padding-top:9px; border:none}
+.dkcz{  padding-top:10px; border:none}
+.yxmc{padding-left:14px; padding-top:20px;}
+.yfje{padding-left:14px; padding-top:20px;}
+.ljcz{ padding-left:60px; padding-top:29px; border:none}
+.tp{ padding-top:25px;  }
+.xk{ border:1px solid #c4c4c4;border-bottom:1px; height:19px}
+.right{width:760px; background:#ffffff;  float:left; margin-left:10px; }
+.yxss{padding-left:0px; padding-top:7px;border:none}
+.yxmc1{padding-left:123px;}
+.wplx{padding-left:6px;}
+.ss{ padding-right:40px; float:right;}
+.xk1{border:1px solid #c4c4c4; height:auto; width:745px; margin-top:10px;}
+.xk2{border:2px solid #504f4f;  width:745px; margin-top:10px;border-right:0px;border-left:0px;}
+.xk3{border:1px solid #c4c4c4; height:28px; width:574px; margin-top:0px;border-left:0px;border-top:0px;}
+.xk4{border:1px solid #c4c4c4; height:307px; width:547px; margin-top:0pc;border-left:0px;border-top:0px; padding-left:28px}
+.rmyx{padding-left:10px; margin-top:18px}
+.xy1{padding-left:38px; margin-top:20px}
+.xk5{ width:82px; height:95px; margin-top:3px; border:1px solid #fff; text-align:center; float:left; margin-right:22px; line-height:18px; overflow:hidden}
+.name{  font-weight:bold; color:#383735}
+.km{ width:749px;  border-right:0px; border-left:0px}
+.t{background-color:#0c0c0c; height:32px ; width:737px; color:#FFFFFF; padding-left:10px; padding-top:18px; font-weight:bold}
+.more{ float:right;}
+.more a{text-decoration:none; color:#FFF}
+.km1{ width:120px;  margin-top:10px;  text-align:center; float:left; margin-right:22px}
+.name{ line-height:30px; font-weight:bold; color:#383735}
+.km2{ width:749px;padding-left:28px}
+
+.hotBg{background:url(hotbg.gif) no-repeat ; height:auto; border:1px solid #e3e3e3;   }
+.chotBg{padding-left:20px; padding-top:10px}
+.hotBg ul li{background:url(zimubg.html); width:50px; height:22px; list-style:none; float:left; text-align:center; line-height:22px; font-weight:bold; color:#5e5e5e; cursor:pointer; font-size:14px; margin-right:10px;}
+.hotBg ul li.hotCur{background:url(cursors.gif); color:#2c2c2c}
+.youxi{padding:10px; color:#606060; height:100px;}
+.youxi a{color:#2c515d; padding-left:10px; padding-right:20px; font-size:12px; font-weight:normal; }
+
+.yx{padding:10px; color:#414141; height:auto;border-top:1px solid #e7e5e6;}
+.yx a{color:#414141; padding-left:10px; padding-right:20px; font-size:12px;text-decoration:none}
+.yx a:hover{text-decoration:underline}
+.yx ul li {
+background: none;
+float: left;
+height: 22px;
+line-height: 22px;
+overflow: hidden;
+text-align: left;
+width: 16%;
+display:block;
+padding:0px; margin:0px;
+
+}
+.y1{
+width:auto;
+overflow:hidden;
+}
+
+/*<!--#footer{width:100%; height:auto; margin:0 auto; border-top:1px #DDDADA solid; margin-top:10px; clear:both}
+.foot{width:960px; height:auto; margin:0 auto; margin-top:25px; margin-left:80px;}
+.foot li ul{}
+.foot li{width:148px; height:auto; float:left; margin-left:90px; display:inline;}
+.foot li .tit{width:148px; height:56px;}
+.foot li ul{padding-top:5px;}
+.foot li li{width:91px; padding-left:64ox; line-height:22px;}
+.foot li li a{color:#504e4e; text-decoration:none;}-->*/
+
+
+.clear{clear:both}
+
+.tab ul li{list-style:none; float:left; background:url(tab1.gif); width:78px; height:32px; line-height:32px; text-align:center; margin-right:10px; font-size:14px}
+.tab ul li a{color:#333}
+.tab ul li.cur{background:url(tab2.gif); width:96px;}
+.tab ul li.cur a{color:#fff}
+
+.tab ul li.changeWp{background:none; float:right; width:auto}
+
+.page .current{color:#CC0000; font-size:16px; font-weight:bold}
+
+.wangbaList{margin-top:10px; border:1px #CCCCCC solid;}
+.margin10{margin-top:10px}
+
+.weizhiBg{background:url(weizhibg.gif); height:25px; line-height:25px; border:1px solid #e5e5e5; padding-left:10px; color:#454545}
+.weizhiBg span{background:url(wzjt.gif) top right no-repeat; padding-left:15px; padding-right:15px; display:block; float:left}
+.weizhiBg a{color:#0099bb}
+#float{background:#fff}
+#floats{background:url(listbg.gif); height:33px; line-height:33px; font-size:14px; border:1px solid #CCCCCC; text-align:center; border-left:0px; border-right:0px; }
+#floats div{text-align:center}
+#floats .borderl{border-left:0px solid #CCCCCC}
+#floats .borderr{border-right:0px solid #CCCCCC}
+ .title td{background:url(listbg.gif); height:33px; line-height:33px; font-size:14px; border:1px solid #aed3ef; text-align:center; border-left:1px; border-right:1px; }
+.listBg .title td.borderl{border-left:1px solid #aed3ef}
+.listBg .title td.borderr{border-right:1px solid #aed3ef}
+.listBg .content td{text-align:center; border-bottom:1px dotted #ccc; padding:5px; padding-top:10px; padding-bottom:20px; }
+.listBg .content td.textleft{text-align:left;}
+.listBg .content a{color:#0099b9; font-size:14px}
+.page{text-align:right; line-height:40px}
+
+
+
+/*Íø°É³äÖµÒ³Ãæ*/
+.hengxian{height:5px; background:url(hengxian.gif) repeat-x; width:100%; margin-top:3px;}
+.cz_weizhi{ padding-left:20px; padding-top:14px} 
+.cz_dk{ border:1px solid #CCCCCC; width:742px; height:828px; margin-left:20px; margin-top:14px}
+.cz_xk{ border-bottom:1px solid #96bb2d; height:30px}
+.cz_xk1{ border-bottom:1px solid #CCCCCC; width:675px; height:86px; margin-left:30px;}
+.cz_jine{ padding-left:30px; padding-top:57px}
+
+.reg{  border:0px solid #c7eff7; margin-top:57px}
+.reg div{margin-top:10px}
+.reg input{background:url(regbg.gif); border:0px; line-height:35px; padding-left:10px; padding-right:10px; margin-right:10px}
+.reg .yanzhengma input{background:url(yanzhengma.gif); border:0px; line-height:35px; padding-left:10px; padding-right:10px;}
+.reg a{ color:#0066cc}

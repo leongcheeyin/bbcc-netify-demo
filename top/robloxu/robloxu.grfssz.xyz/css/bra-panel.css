@@ -1,0 +1,48 @@
+/* CSS Document */
+/*design by mike 2008-1-26*/
+.bra-panel{float:right;width:217px;height:185px;}
+.bra-panel{padding:5px 4px 0px 4px;font-size:14px;background:url(../images/portal_bg.jpg) no-repeat 0 0;}
+.bra-panel ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	width:217px;
+	overflow:hidden;
+}
+.bra-panel ul li {
+	float:left;
+	width:102px;
+	text-align:center;
+	height:35px;
+	background:url(../images/bg_02.html) no-repeat 0 0;
+	margin:2px 1px 0 4px !important;
+	margin:2px 3px 0 2px;
+}
+.bra-panel ul li.Current{background:url(../images/bg_03.html) no-repeat 0 0;}		
+.bra-panel ul li a{
+	display:block;
+	height:27px;
+	line-height:27px;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+}
+.bra-panel ul li a:link,.bra-panel ul li a:visited{color:#217707;text-decoration:none;}
+.bra-panel ul li a:hover,.bra-panel ul li a:active{color:#F50;}
+.bra-panel .Portal{
+	margin-left:4px;
+	width:210px;
+	height:135px;
+	display:none;
+	clear:both;
+	font-size:12px;
+	overflow:hidden;
+}
+.bra-panel .Portal iframe{width:200px;height:135px;margin:2px;}		
+.bra-panel .Left {background:url(../images/portal_bg_l.jpg) no-repeat 0 0;}
+.bra-panel .Right {background:url(../images/portal_bg_r.html) no-repeat 0 0;}
+.bra-panel ul li a#ETTrigger {padding-left:12px;background:url(../images/plane_icon.html) no-repeat 10px center;}
+.bra-panel ul li a#LotteryTrigger{padding-left:12px;background:url(../images/lottery_icon.html) no-repeat 10px center;}
+.bra-panel ul li a#gamecard{padding-left:15px;background:url(../images/coins_icon.gif) no-repeat 5px center;}
+.bra-panel ul li a#mobilecard{padding-left:15px;background:url(../images/phone_icon.html) no-repeat 5px center;}
+.bra-panel #GamecardPortal iframe{margin:5px 7px}

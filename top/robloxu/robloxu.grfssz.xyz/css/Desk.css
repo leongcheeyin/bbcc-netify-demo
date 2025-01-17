@@ -1,0 +1,80 @@
+﻿		body{
+			padding:0px;
+			margin:0px;
+			font-size:12px;
+			width:100%;
+			height:100%;
+		}
+		.DeskBodyHidden{
+			display:none;
+		}
+		.DeskBodyShow{
+			position:absolute;
+			width:100%;
+			height:100%;
+			top:0px;
+			left:0px;
+			z-index:50;
+		}
+		.Alpha{
+			filter:alpha(opacity=50);
+			-moz-opacity:0.5;
+			opacity:0.5;
+		}
+		.DeskTopShow{
+			position:absolute;
+			width:100%;
+			height:100%;
+			background-color:#EEE;
+			top:0px;
+			left:0px;
+			z-index:51;
+		}
+		.DeskShow{
+			width:320px;
+			height:130px;
+			position:absolute;
+			left:50%;top:50%;
+			margin:-65px 0 0 -160px;
+			border:1px solid #6A9EC3;
+			background-color:#FFF;
+			z-index:55;
+		}
+		.DeskTitle{
+			width:300px;
+			height:30px;
+			background-color:#C7DFEE;
+			padding-left:20px;
+			line-height:30px;
+			color:#172E54;
+			font-weight:bold;
+			font-size:14px;
+			text-align:left;
+		}
+		.DeskNote{
+			width:280px;
+			height:40px;
+			padding:10px 20px 10px 20px;
+			line-height:20px;
+			text-align:left;
+			color:#444;
+			font-size:12px;
+			overflow:hidden;
+			
+		}
+		.DeskButton{
+			width:280px;
+			height:20px;
+			padding:10px 20px 10px 20px;
+			overflow:hidden;
+			text-align:center;
+		}
+		.DeskInput{
+			width:100px;
+			margin:0px;
+			padding:2px 0px 0px 0px;
+			text-align:center;
+			font-size:12px;
+			border:1px solid #CCC;
+			background-color:#EEE;
+		}

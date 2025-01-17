@@ -1,0 +1,1012 @@
+//menu
+$(document).ready(function(){
+  
+  $('li.hs_dh').mousemove(function(){
+  $(this).find('ul').slideDown();//you can give it a speed
+  });
+  $('li.hs_dh').mouseleave(function(){
+  $(this).find('ul').slideUp("fast");
+  });
+  
+});
+
+//
+
+//
+
+//选区行
+
+	$(function(){
+		$('#xxx').click(function(){
+								  	$('.z_yx').show();
+								  })
+		$('.xq_x').click(function(){
+								  	$('.z_yx').hide();
+									//return false;
+								  })
+	})
+
+
+$(function(){
+		$('#xxb').click(function(){
+								  	$('.z_yb').show();
+									$('.z_yx').hide();
+								  })
+		$('.xq_x').click(function(){
+								  	$('.z_yb').hide();
+									//return false;
+								  })
+	})
+
+
+$(function(){
+		$('#xxc').click(function(){
+								  	$('.z_yc').show();
+								  })
+		$('.xq_x').click(function(){
+								  	$('.z_yc').hide();
+									//return false;
+								  })
+		$('#xxd').click(function(){
+								  	$('.z_yd').show();
+								  })
+		$('.xq_x').click(function(){
+								  	$('.z_yd').hide();
+									//return false;
+								  })
+		$('#xxf').click(function(){
+								  	$('.z_yf').show();
+								  })
+		$('.xq_x').click(function(){
+								  	$('.z_yf').hide();
+									//return false;
+								  })
+	})
+//
+
+//登陆框
+$(function(){
+		$('.dl_ll').bind('mouseenter',function(){
+								  	$('.dl_lb').show();
+								    $('.dk_lb').hide();
+									$(this).addClass('cur');
+									$('.dl_lk').removeClass('cur')
+								  })
+		$('.dl_lk').bind('mouseenter',function(){
+								  	$('.dl_lb').hide();
+									$('.dk_lb').show();
+									$(this).addClass('cur');
+									$('.dl_ll').removeClass('cur')
+									//return false;
+								  })
+	})
+
+
+//验证与新手指南
+$(function(){
+		$('.an_zx').bind('mouseenter',function(){
+								  	$('.yz_k').show();
+									$('.xs_k').hide();
+									$('.dkcc').hide();
+								  })
+		$('.xs_zn').bind('mouseenter',function(){
+								  	$('.yz_k').hide();
+									$('.xs_k').show();
+									$('.dkcc').hide();
+									//return false;
+								  })
+		$('.dkcz').bind('mouseenter',function(){
+								  	$('.yz_k').hide();
+									$('.xs_k').hide();
+								  	$('.dkcc').show();
+								  })
+
+	})
+//验证
+$(function(){
+		$('.kf_yz').click(function(){
+								  	$('.kf_k').show();
+								  })
+		$('.kf_yz').click(function(){
+								  	$('.wz_k').hide();
+									$('.yx_k').hide();
+									$('.dh_k').hide();
+								  })
+		$('.wz_yz').click(function(){
+									$('.wz_k').show();
+									//return false;
+								  })
+		$('.wz_yz').click(function(){
+									$('.kf_k').hide();
+									$('.yx_k').hide();
+									$('.dh_k').hide();
+									//return false;
+								  })
+        $('.yx_yz').click(function(){
+									$('.yx_k').show();
+									//return false;
+								  })
+		$('.yx_yz').click(function(){
+									$('.kf_k').hide();
+									$('.wz_k').hide();
+									$('.dh_k').hide();
+									//return false;
+								  }) 
+		 $('.dh_yz').click(function(){
+									$('.dh_k').show();
+									//return false;
+								  })
+		$('.dh_yz').click(function(){
+									$('.kf_k').hide();
+									$('.wz_k').hide();
+									$('.yx_k').hide();
+									//return false;
+								  }) 
+	})
+
+
+//点卡商城
+
+$(function(){
+		$('.kf_dc').click(function(){
+								  	$('.kf_dm').show();
+									$('.zd_dm').hide();
+									$('.mj_dm').hide();
+									
+								  })
+		$('.mj_dc').click(function(){
+								  	$('.kf_dm').hide();
+									$('.zd_dm').hide();
+									$('.mj_dm').show();
+									
+								  })
+		$('.zd_dc').click(function(){
+								  	$('.kf_dm').hide();
+									$('.zd_dm').show();
+									$('.mj_dm').hide();
+									
+								  })
+	
+	})
+
+
+//热门游戏a-z
+
+$(function(){
+		$('.xq_r').click(function(){
+								  	$('.rm_k').show();
+									$('.rm_kb').hide();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kf').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+
+								  })
+		$('.xq_s').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kb').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kf').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+		
+		$('.xq_sb').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kc').show();
+									$('.rm_kb').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kf').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+		
+		$('.xq_sc').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kd').show();
+									$('.rm_kc').hide();
+			$('.rm_kb').hide();
+			$('.rm_ke').hide();
+			$('.rm_kf').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+		
+		$('.xq_sd').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_ke').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_kb').hide();
+			$('.rm_kf').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+		 $('.xq_se').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kf').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		    $('.rm_kbb').hide();
+									//return false;
+								  })
+		
+	   $('.xq_sf').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kg').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kf').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+				
+		$('.xq_sg').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kh').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kf').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+					
+		$('.xq_sh').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_ki').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_kf').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+					
+		$('.xq_si').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kj').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kf').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+				
+		$('.xq_sj').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kk').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kf').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+						
+		$('.xq_sk').click(function(){
+			$('.rm_k').hide();
+			$('.rm_kl').show();
+			$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kf').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		    $('.rm_kbb').hide();
+									//return false;
+								  })
+		 $('.xq_sl').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_km').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_kf').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		    $('.rm_kbb').hide();
+									//return false;
+								  })
+				
+		 $('.xq_sm').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kn').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kf').hide();
+			$('.rm_ko').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		    $('.rm_kbb').hide();
+									//return false;
+								  })
+		$('.xq_sn').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_ko').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_kf').hide();
+			$('.rm_kp').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+								
+	$('.xq_so').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kp').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+	
+	$('.xq_sp').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kq').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kp').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+	
+	$('.xq_sq').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kr').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kq').hide();
+			$('.rm_kp').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+	
+	$('.xq_srf').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_ks').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_kp').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+	
+	$('.xq_ssd').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kt').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kp').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+	
+	$('.xq_st').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_ku').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_kp').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+	
+	$('.xq_su').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kv').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kw').hide();
+			$('.rm_kp').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+	
+	$('.xq_sv').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kw').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kp').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+	
+	$('.xq_sw').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kx').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kp').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+	
+	$('.xq_sx').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_ky').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_kp').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+	
+	$('.xq_sy').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kz').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kp').hide();
+		   $('.rm_kbb').hide();
+									//return false;
+								  })
+	
+	$('.xq_sz').click(function(){
+								  	$('.rm_k').hide();
+									$('.rm_kbb').show();
+									$('.rm_kc').hide();
+			$('.rm_kd').hide();
+			$('.rm_ke').hide();
+			$('.rm_kb').hide();
+			$('.rm_kg').hide();
+			$('.rm_kh').hide();
+			$('.rm_ki').hide();
+			$('.rm_kj').hide();
+			$('.rm_kk').hide();
+			$('.rm_kl').hide();
+			$('.rm_km').hide();
+			$('.rm_kn').hide();
+			$('.rm_ko').hide();
+			$('.rm_kf').hide();
+			$('.rm_kq').hide();
+			$('.rm_kr').hide();
+			$('.rm_ks').hide();
+			$('.rm_kt').hide();
+		    $('.rm_ku').hide();
+			$('.rm_kv').hide();
+			$('.rm_kw').hide();
+			$('.rm_kx').hide();
+			$('.rm_ky').hide();
+			$('.rm_kz').hide();
+		   $('.rm_kp').hide();
+									//return false;
+								  })
+		
+		
+		
+	})	
+		

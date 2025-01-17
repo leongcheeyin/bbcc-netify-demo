@@ -1,0 +1,165 @@
+﻿
+.UserLeftMenu{
+	width:180px;
+	height:auto;
+	margin:0 auto 0 auto;
+	z-index:99;
+	
+}
+
+.UserLeftMenu .LoginBox{
+	width:180px;
+	height:180px;
+}
+
+.UserLeftMenu .LoginBox li{
+	float:left;
+	border-left:1px solid #D0D0D0;
+	border-right:1px solid #D0D0D0;
+	width:180px;
+	height:29px;
+	line-height:29px;
+	background-image:url(../images/LeftBodyBg.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	text-align:left;
+}
+.UserLeftMenu .LoginBox li.Center{
+	text-align:center;
+}
+.UserLeftMenu .LoginBox li.Right{
+	text-align:right;
+}
+
+.UserLeftMenu .LoginBox li.BorderBottom{
+	float:left;
+	border-left:1px solid #D0D0D0;
+	border-right:1px solid #D0D0D0;
+	border-bottom:1px solid #D0D0D0;
+	height:20px;
+	line-height:20px;
+	text-align:right;
+	overflow:hidden;
+}
+.UserLeftMenu .LoginBox li.BorderBottom A{
+	color:#09F;
+}
+.UserLeftMenu .LoginBox li.BorderBottom A:hover{
+	color:#F60;
+}
+
+.UserLeftMenu .LoginBox li.NoBg{
+	background-image:none;
+}
+
+.UserLeftMenu .LoginBox li.NoBorder{
+	border:none;
+}
+
+.LeftInputBg{
+	background-image:url(../images/LeftInputBg.html);
+	width:65px;
+	height:22px;
+	text-align:center;
+	padding:1px 0px 0px 0px !important;
+	padding:5px 0px 0px 0px;
+	margin:0px;
+	border:none;
+	font-size:12px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.Font14px{
+	font-size:14px;
+}
+.FontBold{
+	font-weight:bold;
+}
+.ColorF00{
+	color:#F00;
+}
+.Color0086B9{
+	color:#0086B9;
+}
+/*
+.UserLeftMenu .LeftEnterBr{
+	float:left;
+	clear:both;
+	font-size:1px;
+	height:5px;
+}
+*/
+
+.UserLeftMenu .LeftBodyMain{
+	width:180px;
+	height:auto;
+	background-color:#FFFFFF;
+}
+.UserLeftMenu .LeftBodyMain .MainHead{
+	width:180px;
+	height:26px;
+	line-height:26px;
+	background-image:url(../images/LeftBodyHeadBg.gif);
+	height:26px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	padding:0px 0px 0px 20px;
+	text-align:left;
+}
+
+.UserLeftMenu .LeftBodyMain .MainHead A{
+	font-size:12px;
+	font-weight:bold;
+	color:#0086B9;
+	text-decoration:none;
+}
+
+
+
+.UserLeftMenu .LeftBodyMain .NoMenu{
+	width:180px;
+	height:29px;
+	background-image:url(../images/LeftBodyBg.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	padding:9px 0px 0px 30px;
+	text-align:left;
+}
+.UserLeftMenu .LeftBodyMain .TitMenu{
+	width:180px;
+	height:20px;
+	background-image:url(../images/LeftBodyBg.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	padding:9px 0px 0px 30px;
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+	color:#0086B9;
+	background-color:#FFFFFF;
+}
+
+
+
+.Hidden{
+	display:none;
+}
+.UserLeftMenu .LeftBodyMain .NoMenuNoBg{
+	width:150px;
+	height:20px;
+	padding:9px 0px 0px 30px;
+	text-align:left;
+}
+
+.UserLeftMenu .LeftBodyMain .NoMenu A,.UserLeftMenu .LeftBodyMain .NoMenuNoBg A{
+	color:#666;
+	text-decoration:none;
+}
+
+.UserLeftMenu .LeftBodyMain .NoMenu A:hover,.UserLeftMenu .LeftBodyMain .NoMenuNoBg A:hover{
+	color:#F60;
+	text-decoration:underline;
+}
+
+
+	

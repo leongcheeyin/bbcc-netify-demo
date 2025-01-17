@@ -1,0 +1,89 @@
+*{padding:0px; margin:0px }
+body{ font-size:12px; text-align:left; font-family:"ËÎÌו"  }
+li,ul,ol,dl{ list-style:none;}
+li,select,textarea,input{ vertical-align:middle;}
+a{ text-decoration:none; color:#666;}
+a:hover{ color:#ff6701;}
+img{ border:0px;}
+.input, label, img, th{ vertical-align:middle;}
+.frame{width:960px; margin:0px auto}
+.er_sy a{color:#ff6701; width:50px; margin-right:5px; margin-left:5px}
+.dqwz{margin-top:5px}
+.dqwz a{ color:#ff6701; margin-right:5px; margin-left:5px}
+.er_k{width:958px; height:auto; border:1px solid #c8d0d4; }
+.yxz{width:958px; height:30px; background: #f7f7f7; border-bottom:1px solid #e7e7e7}
+.xz_z{width:120px; line-height:30px; display:block; text-align:right; float:left; margin-right:10px}
+.xz_x{width:130px; line-height:15px; border:1px solid #fc9a15; color:#fd6b0b; overflow:hidden; float:left; text-align:center; margin-top:6px; height:15px; margin-right:5px}
+.yxq{width:940px; height:auto; border-bottom:1px solid #e0e5e8; margin:0px auto}
+.yxq_z{ width:110px; display:block; text-align:right; float:left; line-height:40px; margin-right:10px}
+.q_xz{float:left; width:820px; overflow:hidden}
+.q_kind a{width:130px; line-height:40px; overflow:hidden; height:40px; display:block; text-align:left; margin-right:5px; float:left}
+.k_kind a{width:50px; line-height:40px; overflow:hidden; height:40px; display:block; text-align:left; margin-right:5px; float:left}
+
+.zj_t{ width:960px; height:100px; background:url(zt_b.gif) repeat-x; }
+.ej_lc{width:130px; height:40px; background: url(lc_b.gif) repeat-x; border:1px solid #d9d6d6; line-height:40px; display:block; text-align:center; margin-top:40px; float:left; margin-left:30px}
+.lc_k{width:690px; margin:0px auto}
+
+
+.qbsp{width:100px; line-height:25px;  background: #dadbdd;  display:block; text-align:center; float:left; margin-right:1px; cursor:pointer;}
+.qbsp a{color:#000000}
+
+.kind_a{width:4em; line-height:25px; background: #dadbdd; text-align:center; float:left; cursor:pointer; margin-right:1px; padding:0 5px}
+.kind_a a{ color:#000000}
+.kind_b{width:80px; line-height:25px;text-align:center; float:left; cursor:pointer; margin-right:1px; padding:0 5px; background-image:url(wycs.gif); background-repeat:no-repeat; background-position:left; margin-left:460px;}
+.kind_b a{ color:#1d62bf}
+.curr{ background:#3d85e8; color:#fff}
+.cur{width:4em; line-height:25px; background: #3d85e8; text-align:center; float:left; cursor:pointer; margin-right:1px;}
+.wjy{float:right;  margin-left:5px}
+.sd_bb{width:958px; height:65px; background:url(sd_bb.gif) repeat-x; border:1px solid #d9d6d6; border-top:0px}
+.gjz{ float:left;  height:30px; padding-top:5px}
+.qd{width:30px;  border:1px solid #CCC; background:url(lc_b.gif) repeat-x; display:block; text-align:center;  margin-left:5px; cursor:pointer; line-height:20px;  }
+.zxs{ float:left; margin-left:10px; margin-top:5px; margin-bottom:10px}
+.price{width:45px; height:18px; line-height:18px; background:url(pr_bb.gif) no-repeat; color: #000; text-align:left; margin-left:15px; cursor:pointer; float:left; border:1px solid #ccc; margin-top:2px; padding-left:3px}
+.pris{width:45px; height:18px; line-height:18px; background:url(pr_aa.gif) no-repeat; color: #000; text-align:left; margin-left:15px; cursor:pointer; float:left; margin-top:2px; border:1px solid #ccc; padding-left:3px}
+.xiny{width:82px; height:23px; line-height:23px; background:url(xiny_a.gif) no-repeat; color: #fff; text-align:center;  cursor:pointer; float:left}
+.xinb{width:82px; height:23px; line-height:23px; background:url(xiny_b.gif) no-repeat; color: #fff; text-align:center;  cursor:pointer; float:left}
+.butt{width:35px; line-height:18px;  background:#eee; color:#666; text-align:center; display:block;  margin-left:5px; cursor:pointer; border:1px solid #ccc }
+.bua{width:35px; line-height:18px;  background:#fff; color:#666; text-align:center; display:block;  margin-left:5px; }
+.jg{float:left; margin-top:2px}
+.bt{width:100%; height:30px; border-bottom:1px solid #eeeeee; overflow:hidden;}
+
+.lisp{width:100%; height:auto; border-bottom:1px solid #e3e2e2}
+.lis{width:100%; height:auto; border-bottom:1px solid #e3e2e2; background:#f9efdf}
+
+
+
+
+.sp a{font-size:14px; font-weight:bold; color:#0066cc; line-height:16px; width:440px; height:16px; overflow:hidden; display:block}
+.sp a:hover{font-size:14px; font-weight:bold; color:#ff6701; line-height:16px}
+
+.bngm{width:75px; height:24px; background:url(bngm.gif) no-repeat; color:#FFF; margin:0px auto; cursor:pointer}
+.lkgm{width:75px; height:24px; background:url(lkgm.gif) no-repeat; color:#FFF; margin:0px auto; cursor:pointer}
+.lkgm a{ color:#FFF}
+.lkgmb{width:75px; height:24px; background:url(lkgmb.gif) no-repeat; color:#FFF; margin:0px auto}
+#close, #blose{width:15px; height:15px; background:url(close.gif) no-repeat; cursor:pointer;; text-align:center; margin:1px 0px; display:none}
+.mo_fb{position:absolute; width:20px; height:6px; background:url(ddd.png) no-repeat; margin:15px 50px}
+.ss{position:absolute; z-index:999; cursor:pointer; margin:20px 220px; width:30px; height:30px}
+
+
+#tbox img{border-radius:2px; border:1px solid #ddd}
+.ms_img{width:485px; height:65px; background:url(ms_img1.gif) no-repeat}
+.ms_img1{background:url(ms_img.gif) no-repeat;}
+.ms_date, .ms_time{font-family:"Arial Black", Gadget, sans-serif; margin:5px}
+.ms_date{color:#666; font-size:12px; font-weight:bold}
+.ms_ti{ font-family:"Arial Black", Gadget, sans-serif; font-weight:bold; font-size:14px; color:#f60; width:210px; margin:5px auto; display:block; height:auto; border-bottom:1px dashed #ccc; padding-left:135px; padding-right:130px; padding-bottom:2px}
+.ms_time{color:#f60; font-size:18px}
+.f_time{width:250px; margin:3px auto; display:block; height:auto; border-bottom:1px dashed #ccc; padding-left:115px; padding-right:110px}
+.f_tim{width:290px; margin:3px auto; display:block; height:auto;}
+.f_4{width:475px; background:#f0f0f0}
+.time_d, time_t{width:auto; font-family:"Arial Black", Gadget, sans-serif; color:#666; text-align:right; padding-bottom:5px; _padding-bottom:2px }
+.time_s{font-family:"Arial Black", Gadget, sans-serif; color:#f60; font-size:18px; text-align: center; width:1.7em; height:auto;  }
+.time_d{font-size:18px; color:#f60;}
+.time_t{ font-size:12px; }
+.clo{width:17px; height:17px; background:url(clo.gif) no-repeat; margin:4px 5px}
+.f_5{margin:10px auto}
+#dd_content{width:auto; height:25px; background:#f0f0f0}
+.dnf_img{ width:960px; height:65px; background:url(dnf_img.gif) no-repeat}
+.dx_img{ width:960px; height:65px; background:url(dx_img.gif) no-repeat}
+.jl-2014{ width:960px; height:65px; background:url(jl-2014.jpg) no-repeat}
+.jw3{ width:960px; height:65px; background:url(jw3.jpg) no-repeat}

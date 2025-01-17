@@ -1,0 +1,171 @@
+
+
+
+
+	.HeadListBg{
+		width:650px;
+		float:left;
+		height:auto;
+		overflow:hidden;
+		background-image:url(HeadDivBg.html);
+		background-repeat:repeat-x;
+		background-position:top;
+		border:1px solid #4DADDE;
+		border-bottom:none;
+		background-color:#FFF;
+	}
+	.HeadListBg ul{
+		padding:0px;
+		margin:0px;
+	}
+	.HeadListBg li{
+		float:left;
+		padding:0px;
+		margin:0px;
+
+		text-align:center;
+	}
+	
+	
+	.HeadListBg li.LiLeft{
+		width:100px;
+		padding-top:5px;
+		height:20px;
+	}
+	.HeadListBg li.LiLeft2{
+		width:105px;
+		padding-top:5px;
+		padding-left:4px;
+		height:20px;
+	}
+	.HeadListBg li.LiCenter{
+		width:520px;
+				padding-top:5px;
+		height:20px;
+	}
+	.HeadListBg li.LiRight{
+		width:30px;
+				padding-top:5px;
+		height:20px;
+	}
+	.HeadListBg li.LookGame{
+		padding-top:4px;
+		padding-left:12px;
+		height:20px;
+	}
+	
+	.HeadMenuTitleBg{
+		width:630px;
+		height:23px;
+		float:left;
+		border:1px solid #4DADDE;
+		border-top:none;
+		border-bottom:none;
+		overflow:hidden;
+		padding:0px 10px 0px 10px;
+		background-color:#FFF;
+	}
+	
+	.HeadMenuTitle{
+		float:left;
+		background-repeat:no-repeat;
+		background-position:top center;
+		line-height:23px;
+		font-family:Arial;
+		width:70px;
+		height:23px;
+		overflow:hidden;
+		text-align:center;
+		background-color:#FFF;
+	}
+	
+	.HeadMenuHav{
+		background-image:url(HeadDivGameH.html);
+		font-weight:bold;
+		color:#F60;
+		font-size:13px;
+	}
+	
+	.HeadMenuNo{
+		background-image:url(HeadDivGameN.html);
+		font-weight:normal;
+		color:#026ECB;
+		font-size:12px;
+	}
+	
+	.HeadMenuSpace{
+		background-image:url(HeadDivGameL.html);
+		background-repeat:repeat-x;
+		background-position:top center;
+	}
+
+	.HeadGameListBody{
+		width:628px;
+		height:auto;
+		float:left;
+		border:1px solid #4DADDE;
+		border-top:none;
+		padding:0px 10px 10px 10px;
+		background-color:#FFF;
+		text-align:left;
+	}
+
+	.HeadGameList{
+		width:620px;
+		height:auto;
+		float:left;
+		border:1px solid #4DADDE;
+		border-top:none;
+		padding:4px;
+		line-height:140%;
+		background-color:#FFF;
+	}
+	
+	.HeadGameListBody li{ float:left; text-align:left; margin-top:5px; margin-right:5px; white-space:nowrap; width:80px; overflow:hidden;text-overflow:ellipsis;}
+	.HeadGameListBody a{ color:#004fe0;}
+	.HeadGameListBody a:hover{ color:#ff6600;}
+
+	.HeadSearchInput{
+		height:16px !important;
+		height:14px;
+		padding-top:2px !important;
+		padding-top:3px;
+		padding-left:3px;
+		font-size:12px;
+		position:static;
+		background-image:url(HeadDivSearchArrow.html);
+		background-repeat:no-repeat;
+		background-position:right top;
+	}
+	
+	.ClickGame:active,.ClickGame:visited,.ClickGame:link{
+		font-size:12px;
+		text-decoration:none;
+		color:#555;
+		padding-right:3px;
+	}
+	.ClickGame:hover{
+		color:#FF6600;
+		padding-right:3px;
+	}
+	
+	.Hand{
+		cursor:pointer;
+	}
+	
+	.Hidden{
+		display:none;
+	}
+
+	
+	.Hot:active,.Hot:visited,.Hot:link{
+		font-size:12px;
+		text-decoration:none;
+		color:red;
+		padding-right:3px;
+		font-weight:bold;
+	}
+	.Hot:hover{
+		color:#FF6600;
+		padding-right:3px;
+	}

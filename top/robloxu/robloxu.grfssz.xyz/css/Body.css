@@ -1,0 +1,190 @@
+	body,td,div,select,input,span{
+		font-size:12px;
+		padding:0px;
+		margin:0px;
+		color:#424242;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+
+	form{
+		padding:0px;
+		margin:0px;
+	}
+
+	.EnterBr{
+		clear:both;
+		height:10px;
+		font-size:1px;
+	}
+	.Hidden{
+		display:none;
+	}
+	.Hand{
+		cursor:pointer;
+	}
+	a:link,a:visited,a:active{
+		color:#666;
+		text-decoration:none;
+
+	}
+	a:hover{
+		color:#F60;
+		text-decoration:underline;
+
+	}
+	
+.biaoti{
+	text-overflow:ellipsis;
+	color:#0077b2;
+	overflow: hidden;
+}
+.biaoti a{ color:#0077b2;}
+.biaoti a:hover{ color:#ff6600;}
+	
+	/*系统消息 旧*/
+	.SystemRightMsg{
+		width:297px;
+		/*height:150px;*/
+		height:143px;
+		position:absolute;
+		left:100%;top:100%;
+		/*margin:-150px 0 0 -297px;*/
+		margin:-143px 0 0 -297px;
+		z-index:55;
+		overflow:hidden;
+	}
+	
+	.SystemRightMsgBody{
+		width:297px;
+		/*height:150px;*/
+		height:143px;
+		position:absolute;
+		left:0;
+		/*top:150px;*/
+		top:143px;
+		z-index:56;
+		overflow:hidden;
+		color:#FFF;
+	}
+	
+	.SystemRightMsgTop{
+		float:left;
+		width:297px;
+		background-image:url(SystemMsgTop.html);
+		height:27px;
+	}
+	
+	.SystemRightMsg2Top{
+		float:left;
+		width:297px;
+		background-image:url(SystemMsgTop.html);
+		height:39px;
+	}
+	
+	
+	
+	.SystemRightMsgNote{
+		float:left;
+		width:280px;
+		background-image:url(SystemMsgBg.html);
+		padding:4px 7px 0px 10px;
+		height:105px;
+		line-height:21px;
+		overflow:hidden;
+	}
+	
+	.SystemRightMsg2Note{
+		float:left;
+		width:297px;
+		height:73px;
+	}
+	
+	ul,li{padding:0px;margin:0px; list-style:none;}
+	
+	.SystemRightMsg2NoteL{
+		width:75px;
+		float:left;
+		height:73px;
+		background-image:url(SystemMsg2-Left.html);
+		background-repeat:no-repeat;
+	}
+	
+	.SystemRightMsg2NoteC{
+		width:201px;
+		float:left;
+		height:60px;
+		padding-top:13px;
+		background-image:url(SystemMsg2-Body.html);
+		background-repeat:no-repeat;
+		overflow:hidden;
+		line-height:24px;
+		text-align:left;
+	}
+	
+	.SystemRightMsg2NoteR{
+		width:21px;
+		float:left;
+		height:73px;
+		background-image:url(SystemMsg2-Right.html);
+		background-repeat:no-repeat;
+	}
+	
+	.SystemRightMsgFoot{
+		float:left;
+		width:297px;
+		background-image:url(SystemMsgBottom.html);
+		height:14px;
+		font-size:1px;
+	}
+	
+	.SystemRightMsg2Foot{
+		float:left;
+		width:297px;
+		background-image:url(SystemMsg2Bg.html);
+		background-repeat:no-repeat;
+		height:31px;
+	}
+	
+	.SystemRightMsgList{
+		background-image:url(Message.html);
+		background-position:left 4px;
+		background-repeat:no-repeat;
+		
+		padding-left:20px;
+		width:260px;
+		height:21px;
+		line-height:21px;
+		float:left;
+		text-align:left;
+		overflow:hidden;
+	}
+	
+	.SystemRightMsgTime{
+		color:#F60;
+	}
+	
+	.Width150
+	{
+		width:150px;
+	}
+	.Width130
+	{
+		width:130px;
+	}
+	.Width120
+	{
+		width:120px;
+	}
+
+.title105{
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	padding-top:6px;
+	display:block;
+	padding-left:16px;
+	}
+
+
+	
+	

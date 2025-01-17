@@ -1,0 +1,58 @@
+/******************* 
+   ibuy and isell style
+ *******************/
+/* ibuy style */
+.ibuy{ width:770px; margin:auto; text-align:left; overflow:hidden;}
+.quicklink{ margin-top:15px; height:28px; clear:both;}
+.quicklink a{ display:block; float:left; width:22px; height:28px; line-height:28px; text-align:center; color:#005db7; font-weight:bold; text-transform:uppercase; background:url(js/images/ibuy_quicklink_bg.html) left no-repeat; margin-left:5px;}
+.quicklink a:hover{ color:#ff6600; text-decoration:none;}
+.gameslistBox{ margin-top:15px; clear:both;}
+.gameslist{ width:100%; clear:both;}
+.gameslist .title_off { border-bottom:1px solid #419bd7;}
+.gameslist .title_off b{ display:block; width:28px; height:20px!important; height:15px; text-align:center; color:#ffffff; font-weight:bold; background-color:#419bd7;}
+.gameslist .title_on { border-bottom:1px solid #ff7200;}
+.gameslist .title_on b{ display:block; width:28px; height:20px!important; height:15px; text-align:center; color:#ffffff; font-weight:bold; background-color:#ff7200;}
+.gameslist .games{ float:left; padding-top:5px; padding-bottom:5px; font-size:14px; padding-left:20px; line-height:20px;}
+.gameslist .games a{ color:#002e5b; margin-right:10px; word-break:keep-all}
+.gameslist .games a:hover{ color:#ff6600;}
+.gameslist .hot{ color:#cc0033; font-size:12px;}
+.gameslist .free{ color:#008000; font-size:12px;}
+.ibuy .cue{ clear:both; margin-top:18px; height:18px; padding-left:30px; padding-top:5px; font-size:12px; border:1px solid #f7e6b3; background:url(images/cue_01.html) 7px 5px no-repeat; background-color:#fcffee;}
+/* isell style */
+.isell{ width:100%; margin:auto; text-align:left; margin-top:8px;}
+.isell a{ color:#424242;}
+.isell a:hover{ color:#ff6600;}
+.isell .list{ margin-left:200px;}
+.isell .clear1{ clear:both; height:30px;}
+.isell .clear2{ clear:both; height:40px;}
+.isell .btn{ float:left;}
+.isell .note{ float:left; margin-left:15px; margin-top:5px; line-height:22px;}
+.isell .cue{ clear:both; margin-left:200px; width:400px; height:18px; padding-left:30px; padding-top:5px; font-size:12px; border:1px solid #f7e6b3; background:url(images/cue_01.html) 7px 5px no-repeat; background-color:#fcffee;}
+/* isell From style */
+.jishouform1{ width:730px; margin:auto; margin-top:18px; text-align:left; font-size:14px;}
+.jishouform1 a{ color:#0251ba; text-decoration:underline;}
+.jishouform1 a:hover{ color:#FF6600;}
+.jishouform1 .column{ height:34px; line-height:34px; padding-left:55px; color:#0053b6; font-size:14px; font-weight:bold; border-top:1px solid #c7ddea; background:url(../../images.5173.com/images/images1/tag/tag_03.gif) 10px 3px no-repeat; background-color:#eaf5fb;}
+.jishouform1 .list{ height:35px; border-bottom:1px dotted #d0d0d0; clear:both;}
+.jishouform1 .listbg{ height:35px; border-bottom:1px dotted #d0d0d0; clear:both; background-color:#fafafa;}
+.jishouform1 .listmiaoshu{ height:80px; border-bottom:1px dotted #d0d0d0; clear:both; background-color:#fafafa;}
+.jishouform1 .list2{ height:35px; clear:both;}
+.jishouform1 .title{ color:#333333; font-size:14px; width:128px; margin-top:10px; white-space:nowrap; display:block; float:left; text-align:right; margin-right:15px;}
+.jishouform1 .txt{ float:left; color:#747474; font-size:14px; margin-top:10px;}
+.jishouform1 .txt2{ float:left; color:#747474; font-size:14px; margin-top:7px;}
+.jishouform1 .cue{ float:left; color:#747474; margin-top:10px; background:url(../../images.5173.com/images/images1/tag/tag_help_02.gif) 0px 0px no-repeat; padding-left:18px; font-size:12px; margin-left:10px;}
+.jishouform1 .cue2{ float:left; color:#747474; margin-top:10px; margin-left:15px; width:140px; background:url(../../images.5173.com/images/images1/tag/tag_help_02.gif) 0px 3px no-repeat; padding-left:18px; font-size:12px; line-height:20px;}
+.jishouform1 .cue3{ float:left; color:#747474; margin-top:3px; width:460px; background:url(../../images.5173.com/images/images1/tag/tag_help_02.gif) 0px 10px no-repeat; padding-left:18px; font-size:12px; line-height:20px; margin-left:15px;}
+.jishouform1 .cue4{ float:left; color:#747474; margin-top:10px; font-size:12px; margin-left:10px;}
+.jishouform1 select{ margin-right:5px;}
+.jishouform1 textarea.t1{ width:400px; height:60px;}
+.jishouform1 input{ height:16px; line-height:16px; margin-right:5px;}
+.jishouform1 input.c1{ width:111px;border-bottom:1px solid #dfdfdf; border-right:1px solid #dfdfdf;}
+.jishouform1 input.c2{ width:400px;border-bottom:1px solid #dfdfdf; border-right:1px solid #dfdfdf;}
+.jishouform1 input.c3{ width:55px;border-bottom:1px solid #dfdfdf; border-right:1px solid #dfdfdf;}
+.jishouform1 input.c4{ width:234px;border-bottom:1px solid #dfdfdf; border-right:1px solid #dfdfdf;}
+.jishouform1 input.c5{ width:60px;border-bottom:1px solid #dfdfdf; border-right:1px solid #dfdfdf;}
+.jishouform1 input.c6{ width:83px;border-bottom:1px solid #dfdfdf; border-right:1px solid #dfdfdf;}
+.jishouform1 .btn{ text-align:center; margin-top:30px; clear:both;}
+.jishouform1 .note{ width:494px; margin:auto; margin-top:20px; height:18px; padding-left:30px; padding-top:5px; font-size:12px; border:1px solid #f7e6b3; background:url(images/cue_01.html) 7px 5px no-repeat; background-color:#fcffee;}/* CSS Document */
+

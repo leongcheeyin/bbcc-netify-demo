@@ -1,0 +1,411 @@
+﻿BODY {
+	BACKGROUND: #fff; TEXT-ALIGN: center
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+B {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+TEXTAREA {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+SELECT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+TR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #424242; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-COLLAPSE: collapse; BORDER-RIGHT-WIDTH: 0px
+}
+TABLE {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-COLLAPSE: collapse; BORDER-RIGHT-WIDTH: 0px
+}
+A {
+	COLOR: #424242; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+.Head_header {
+	Z-INDEX: 9; MARGIN: auto; WIDTH: 980px; POSITION: relative; TEXT-ALIGN: left
+}
+.Head_header A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+.Head_header .Head_logo {
+	Z-INDEX: 8; LEFT: 24px; POSITION: absolute; TOP: 13px
+}
+.Head_header .headertop {
+	RIGHT: 0px; POSITION: absolute; TOP: 15px
+}
+.Head_header .topnav {
+	DISPLAY: inline; FLOAT: right; MARGIN-RIGHT: 22px
+}
+.Head_header .topnav LI {
+	DISPLAY: inline; BACKGROUND: url(../images/head_bg.gif) no-repeat right 0px; FLOAT: left; MARGIN: 0px 3px; HEIGHT: 23px
+}
+.Head_header .topnav LI A {
+	PADDING-RIGHT: 6px; DISPLAY: block; PADDING-LEFT: 7px; FONT-SIZE: 12px; BACKGROUND: url(../images/head_bg.gif) no-repeat 0px 0px; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #1e8ec6; LINE-HEIGHT: 23px; PADDING-TOP: 0px; HEIGHT: 23px
+}
+.Head_header .topnav A.hot {
+	COLOR: #ff6600
+}
+.Head_header .quicklogin {
+	MARGIN-TOP: 5px; FLOAT: right; MARGIN-RIGHT: 20px
+}
+.Head_header .quicklogin .welcome {
+	DISPLAY: inline
+}
+.Head_header .quicklogin .name {
+	COLOR: #ff6600; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Head_header .quicklogin .cue {
+	DISPLAY: inline; PADDING-LEFT: 18px; BACKGROUND: url(../images/tag_06.gif) no-repeat 0px 0px; MARGIN-LEFT: 12px
+}
+.Head_header .quicklogin .cue A {
+	COLOR: #ff0000
+}
+.Head_header .quicklogin .login {
+	DISPLAY: inline; MARGIN-LEFT: 12px
+}
+.Head_header .quicklogin .login A {
+	MARGIN-RIGHT: 2px
+}
+.Head_header .quicklogin A {
+	COLOR: #1e8ec6; FONT-FAMILY: "SimSun"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------onForBuy----------------------------*/
+
+
+
+.Head_header .Head_search {
+	Z-INDEX: 7; BACKGROUND: url(../images/head_bg.gif) repeat-x 0px -309px; LEFT: 0px; WIDTH: 100%; POSITION: relative; TOP: 0px; HEIGHT: 0px; TEXT-ALIGN: left
+}
+.Head_header .Head_search .searchleft {
+	BACKGROUND: url(../images/head_bg.gif) repeat-x left -233px; LEFT: 0px; WIDTH: 61px; POSITION: absolute; TOP: 0px; HEIGHT: 0px
+}
+.Head_header .Head_search .searchright {
+	RIGHT: 0px; BACKGROUND: url(../images/head_bg.gif) repeat-x right -385px; WIDTH: 43px; POSITION: absolute; TOP: 0px; HEIGHT: 0px
+}
+.Head_header .Head_search .searchbox {
+	LEFT: 65px; FLOAT: left; POSITION: absolute; TOP: 8px
+}
+.Head_header .Head_search .searchbox .choosegamename {
+	FLOAT: left; WIDTH: auto; MARGIN-RIGHT: 5px
+}
+.Head_header .Head_search .searchbox .choosegamequ {
+	FLOAT: left; WIDTH: auto; MARGIN-RIGHT: 5px
+}
+.Head_header .Head_search .searchbox .choosegamefu {
+	FLOAT: left; WIDTH: auto; MARGIN-RIGHT: 5px
+}
+.Head_header .Head_search .searchbox .thingstype {
+	FLOAT: left; WIDTH: auto; MARGIN-RIGHT: 5px
+}
+.Head_header .Head_search .searchbox .searchtxt {
+	FLOAT: left; WIDTH: auto
+}
+.Head_header .Head_search .searchbox .searchtxt INPUT {
+	BORDER-RIGHT: #9c9c9c 1px solid; BORDER-TOP: #9c9c9c 1px solid; MARGIN-TOP: -1px; BORDER-LEFT: #9c9c9c 1px solid; WIDTH: 300px; LINE-HEIGHT: 19px; MARGIN-RIGHT: 6px; BORDER-BOTTOM: #9c9c9c 1px solid; HEIGHT: 19px
+}
+.Head_header .Head_search .searchbox .searchbtn {
+	FLOAT: left; WIDTH: auto
+}
+.Head_header .Head_search .hotgames {
+	Z-INDEX: -5; LEFT: 70px; COLOR: #ffffff; BOTTOM: 5px; WHITE-SPACE: nowrap; POSITION: absolute
+}
+.Head_header .Head_search .hotgames H5 {
+	FONT-SIZE: 12px; FLOAT: left
+}
+.Head_header .Head_search .hotgames LI {
+	FLOAT: left; VERTICAL-ALIGN: middle; COLOR: #ffffff; MARGIN-RIGHT: 8px
+}
+.Head_header .Head_search .hotgames A {
+	COLOR: #ffffff
+}
+.Head_header .Head_search .hotgames A:hover {
+	COLOR: #ff6600
+}
+.HeadMenuTitSelect {
+	PADDING-RIGHT: 20px; BACKGROUND-POSITION: right 1%; FLOAT: left; BACKGROUND-IMAGE: url(../newimg/SelectRight.html); WIDTH: auto; LINE-HEIGHT: 21px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 21px
+}
+.choosegametxt {
+	MARGIN-TOP: -3px; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 5px
+}
+.Head_floatbanner {
+	MARGIN: auto; OVERFLOW: hidden; WIDTH: 980px; HEIGHT: 8px
+}
+.Notice_Head {
+	FLOAT: left; BACKGROUND-IMAGE: url(NoticeBg.html); WIDTH: 100%
+}
+.Notice_Center {
+	Z-INDEX: 99; MARGIN: 0px auto; WIDTH: 980px; TEXT-ALIGN: center
+}
+.Notice_Right {
+	FLOAT: left; MARGIN: 0px auto; WIDTH: 80px; LINE-HEIGHT: 0px; HEIGHT: 0px; TEXT-ALIGN: right
+}
+.Notice_Left {
+	Z-INDEX: 99; FLOAT: left; MARGIN: 0px auto; WIDTH: 900px; LINE-HEIGHT: 0px; PADDING-TOP: 0px; POSITION: relative; TEXT-ALIGN: left
+}
+.Notice_Img {
+	PADDING-LEFT: 140px; FLOAT: left; WIDTH: 30px
+}
+.Notice_Note {
+	PADDING-RIGHT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FILTER: Dropshadow(Color=#FFFFFF, OffX=1, OffY=0, Positive=1)
+	Dropshadow(Color=#FFFFFF, OffX=0, OffY=1, Positive=1)
+	Dropshadow(Color=#FFFFFF, OffX=0, OffY=-1, Positive=1)
+	Dropshadow(Color=#FFFFFF, OffX=-1, OffY=0, Positive=1); FLOAT: left; WIDTH: 700px; COLOR: #000; FONT-FAMILY: sans-serif; LETTER-SPACING: 1px
+}
+.Notice_Colora30000 {
+	COLOR: #a30000
+}
+.Notice_Color0045a3 {
+	COLOR: #0045a3
+}
+
+
+BODY.header .Head_header {
+	Z-INDEX: 9; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: auto; WIDTH: 980px; POSITION: relative; HEIGHT: 45px; TEXT-ALIGN: left
+}
+BODY.header .Head_header .Head_search {
+	Z-INDEX: 7; BACKGROUND: url(../images/head_bg.gif) repeat-x left -309px; LEFT: 0px; WIDTH: 100%; POSITION: relative; TOP: 0px; HEIGHT: 40px; TEXT-ALIGN: left! important
+}
+
+
+/*-----------Current91Net-----------------*/
+BODY.Current91Net .Head_header .Head_mainnavbox .Head_mainnav LI.offHome A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/head_bg.gif) repeat-x right -458px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px! important
+}
+
+BODY.Current91Net .Head_header .Head_mainnavbox .Head_mainnav LI.on91Net {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px -83px; PADDING-LEFT: 27px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center! important
+}
+
+/*-----------CurrentBuy-----------------*/
+BODY.CurrentBuy .Head_header .Head_mainnavbox .Head_mainnav LI.off91Net A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/head_bg.gif) repeat-x right -458px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px! important
+}
+
+BODY.CurrentBuy .Head_header .Head_mainnavbox .Head_mainnav LI.onBuy {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px -83px; PADDING-LEFT: 27px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center! important
+}
+
+/*-----------CurrentSale-----------------*/
+BODY.CurrentSale .Head_header .Head_mainnavbox .Head_mainnav LI.offBuy A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/head_bg.gif) repeat-x right -458px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px! important
+}
+BODY.CurrentSale .Head_header .Head_mainnavbox .Head_mainnav LI.onSale {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px -83px; PADDING-LEFT: 27px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center! important
+}
+
+/*-----------CurrentCard-----------------*/
+BODY.CurrentCard .Head_header .Head_mainnavbox .Head_mainnav LI.offSale A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/head_bg.gif) repeat-x right -458px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px! important
+}
+BODY.CurrentCard .Head_header .Head_mainnavbox .Head_mainnav LI.onCard {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px -83px; PADDING-LEFT: 27px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center! important
+	}
+
+/*-----------CurrentPractise-----------------*/
+BODY.CurrentPractise .Head_header .Head_mainnavbox .Head_mainnav LI.offCard A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/head_bg.gif) repeat-x right -458px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px! important
+}
+BODY.CurrentPractise .Head_header .Head_mainnavbox .Head_mainnav LI.onPractise {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px -83px; PADDING-LEFT: 27px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center! important
+	}
+	
+/*-----------CurrentForBuy-----------------*/
+BODY.CurrentForBuy .Head_header .Head_mainnavbox .Head_mainnav LI.offPractise A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/head_bg.gif) repeat-x right -458px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px! important
+}
+BODY.CurrentForBuy .Head_header .Head_mainnavbox .Head_subnav LI.onForBuy {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 27px; BACKGROUND: url(../images/head_bg.gif) repeat-x 0px -83px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center! important
+}
+BODY.CurrentForBuy .Head_header .Head_mainnavbox .Head_subnav LI.onForBuy A {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 0px; BACKGROUND: url(../images/head_bg.gif) repeat-x right -120px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px! important
+}
+BODY.CurrentForBuy .Head_header .Head_mainnavbox .Head_subnav {
+	PADDING-RIGHT: 24px; DISPLAY: inline; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 33px; PADDING-TOP: 0px; HEIGHT: 33px! important
+}
+#link {
+	WIDTH: 980px; HEIGHT: 70px;margin:0 auto 0 auto;
+}
+#link .logo {
+	FLOAT: left; WIDTH: 200px; HEIGHT: 70px
+}
+#link .logo IMG {
+	WIDTH: 200px; HEIGHT: 70px
+}
+#link #guide {
+	BACKGROUND: url(../images/guide.jpg) no-repeat 0px 0px; FLOAT: right; WIDTH: 650px; HEIGHT: 45px
+}
+#guide UL LI {
+	FLOAT: left; WIDTH: 130px
+}
+#link #loginArea {
+	PADDING-LEFT: 13px; BACKGROUND: url(../images/Tpbgg.jpg) no-repeat 0px 0px; FLOAT: right; WIDTH: 440px; HEIGHT: 30px
+}
+#loginArea FORM {
+	WIDTH: 440px; COLOR: #333; PADDING-TOP: 3px; HEIGHT: 27px; TEXT-ALIGN: left
+}
+#loginArea FORM .ys {
+	BORDER-RIGHT: #f9d391 1px solid; BORDER-TOP: #f9d391 1px solid; DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 5px; BORDER-LEFT: #f9d391 1px solid; WIDTH: 50px; BORDER-BOTTOM: #f9d391 1px solid
+}
+#loginArea FORM P.left {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 5px; WIDTH: 300px; HEIGHT: 18px
+}
+#loginArea FORM P.right {
+	FLOAT: left; WIDTH: 50px; PADDING-TOP: 3px
+}
+#link #loginsection {
+	PADDING-LEFT: 20px; BACKGROUND: url(../images/Tpbg.html) no-repeat 0px 0px; FLOAT: right; WIDTH: 285px; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+#loginsection STRONG {
+	MARGIN: 0px 5px; COLOR: #ff6600
+}
+#loginsection A {
+	FONT-WEIGHT: bold; MARGIN: 0px 6px; COLOR: #ff6600
+}
+#container{
+	MARGIN: 0px auto 0 auto; WIDTH: 980px;overflow:hidden
+}
+#container #helpguide {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; MARGIN-TOP: 10px; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: #ccc 1px solid; WIDTH: 978px; BORDER-BOTTOM: #ccc 1px solid
+}
+
+#helpguide .sort {
+	FLOAT: left; WIDTH: 244px;overflow:hidden
+}
+#helpguide .sort DT {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; BACKGROUND: url(../images/help.jpg) repeat-x left top; FLOAT: left; MARGIN-BOTTOM: 5px; WIDTH: 244px; COLOR: #333; LINE-HEIGHT: 33px; HEIGHT: 33px
+}
+#helpguide .sort DD {
+	 FLOAT: left; WIDTH: 204px; LINE-HEIGHT: 25px; HEIGHT: 25px; TEXT-ALIGN: left;margin-left:20px
+}
+#helpguide .sort DD A {
+	PADDING-left: 15px; BACKGROUND: url(../images/sj.gif) no-repeat left center; MARGIN: 0px 5px
+}
+#friendLink {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; MARGIN-TOP: 10px; FLOAT: left; BORDER-LEFT: #ccc 1px solid; WIDTH: 978px; COLOR: #666; BORDER-BOTTOM: #ccc 1px solid
+}
+#container #friendLink A {
+	COLOR: #666
+}
+#container #friendLink A:hover {
+	COLOR: #ff4e00
+}
+#friendLink td{padding:10px}
+#friendLink a{padding-right:5px;line-height:25px;height:25px}
+#friendLink DL {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FLOAT: left; PADDING-BOTTOM: 10px; WIDTH: 948px; LINE-HEIGHT: 25px; PADDING-TOP: 10px; TEXT-ALIGN: left
+}
+#friendLink DL DT {
+	FLOAT: left; WIDTH: 60px
+}
+#friendLink DL DD {
+	FLOAT: left; WIDTH: 888px
+}
+#friendLink DL DD A {
+	DISPLAY: inline-block; MARGIN: 0px 3px; WHITE-SPACE: normal
+}
+#wrap #footer {
+	PADDING-RIGHT: 140px; MARGIN-TOP: 15px; PADDING-LEFT: 140px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 700px; COLOR: #666; PADDING-TOP: 5px
+}
+#footer .box {
+	FLOAT: left; WIDTH: 700px; LINE-HEIGHT: 25px
+}
+#footer .box .fl {
+	FLOAT: left; WIDTH: 200px; TEXT-ALIGN: right
+}
+#footer .box .fl A {
+	MARGIN: 0px 3px
+}
+#footer .box .fm {
+	FLOAT: left; WIDTH: 280px; LINE-HEIGHT: 25px
+}
+#footer .box .fr {
+	FLOAT: left; WIDTH: 220px; TEXT-ALIGN: left
+}
+#footer .box .fr A {
+	MARGIN: 0px 3px
+}

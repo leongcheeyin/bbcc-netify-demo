@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.link{ margin:30px 0; }
+.link a{ margin:0 10px;}
+.input{ border-radius:0; color:#333; border:1px #ddd solid; box-shadow:none;}
+.field{ margin:5px 0;}
+.field input{ height:40px; }
+.button{ background:#00b0ff; color:#fff;}
+.button:hover{ background:#0095d8;}
+.hzdl p{height:30px; line-height:30px; text-align:center; color:#999;}
+.ystk{ text-align:center; line-height:35px;}
+.ystk a{text-align:center; color:#999;}
+.ystk a:hover{ color:#00b0ff;}
+.yhdl{font-size:22px; line-height:40px;}
+.dl{background:#fff; min-height:475px; position:relative; border:1px #ddd solid; box-shadow:3px 3px 3px #ddd; padding-bottom:20px;}
+.tab-body{box-shadow:3px 3px 3px #ddd;}
+
+/*验证样式*/
+.inputing {background:url(../Images1/tan_blue.gif) no-repeat 5px center; float:left; font-size:12px; padding-left:25px;}
+.wrong {background:url(../Images1/wrong.gif) no-repeat 5px center; float:left; font-size:12px; padding-left:25px;}
+.right {background:url(../Images1/right.gif) no-repeat 5px center; float:left; font-size:12px; padding-left:25px;}
+.remsg{display:block; height:30px; line-height:30px; vertical-align:middle; color:#999999; font-size:12px; float:left;}
+
+/*邮箱下拉*/
+#email_EmailList { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #C8C8C8; height: auto; margin-left: 93px; *margin-left: -228px; margin-top: 26px; overflow: hidden; position: absolute; width: 226px; z-index: 99;}
+#email_EmailList h3 { border-bottom: 1px solid #BEE4F0; font-size: 14px; font-weight: bold; height: 30px; line-height: 30px; text-align: left; text-indent: 40px;}
+#email_EmailList a { background: none repeat scroll 0 0 #FFFFFF; color: #666666; display: block; font-family: arial; font-size: 12px; height: 21px; line-height: 21px; overflow: hidden; padding: 0 10px; text-decoration: none;}
+#email_EmailList a:hover { background: none repeat scroll 0 0 #D4E8FC; color: #666666;}
+#email_EmailList a.on { background: none repeat scroll 0 0 #A3CBFF; color: #666666;}

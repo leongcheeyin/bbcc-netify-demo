@@ -1,0 +1,61 @@
+body,p,td,input,option,textarea,select{color:#333333;font:12px "Verdana"}
+body,form,ul,li,p,ol{margin:0;padding:0}
+body{background:#FFFFFF;text-align:center}
+img{border:0}
+ul{list-style-type:none}
+table{text-align:left}
+.full{margin:0 10px;text-align:left}
+.main,.m760,.m950{margin:0 auto;text-align:left;width:760px}
+.m950{width:950px}
+.clear{border-top:1px solid transparent !important;border-top:0;clear:both}
+.debug{border:1px dashed #FF00FF}
+.font14{font-size:14px}
+.number{font-family:Arial}
+.b{font-weight:bold}
+.s{text-decoration:line-through;font-family:"ËÎÌו"}
+.ime{ime-mode:disabled}
+.desc{line-height:150%;word-break:break-all;word-wrap:break-word}
+.break{line-height:140%;word-break:break-all;word-wrap:break-word}
+.lineCenter{text-align:center}
+.lineLeft{text-align:left}
+.lineRight{text-align:right}
+.relative{position:relative}
+.absolute{
+	position:absolute;
+}
+.overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.over{cursor:pointer}
+a:link,a:visited{ text-decoration:none}
+#headV3{font-family:Verdana;height:35px;overflow:hidden;margin-bottom:0px}
+#headV3 a:link,#headV3 a:visited,#footV3 a:link,#footV3 a:visited{color:#333333;text-decoration:none}
+#headV3 a:active,#headV3 a:hover,#footV3 a:active,#footV3 a:hover{color:#FF4E00;text-decoration:underline}
+#headV3 a.linkBlue:link,#headV3 a.linkBlue:visited,#footV3 a.linkBlue:link,#footV3 a.linkBlue:visited{color:#014ccc;text-decoration:none}
+#headV3 a.linkBlue:active,#headV3 a.linkBlue:hover,#footV3 a.linkBlue:active,#footV3 a.linkBlue:hover{color:#014ccc;text-decoration:underline}
+#headV3 #headMenu{
+	right:0;
+	bottom:0;
+	z-index:3;
+	background:url(images/menuBg.html) bottom repeat-x
+
+}
+#headV3 #menuList{width:610px;overflow:hidden;height:29px;background:url(images/menuSide.html) right bottom no-repeat}
+#headV3 #menuList li{float:left;height:29px;background:url(images/menuSplit.html) left bottom no-repeat}
+#headV3 #menuList li span{display:block;padding:8px 16px 0 16px}
+#headV3 #menuList li a:hover{color:#ff5500;text-decoration:none;background:url(images/menuBgOver.html) bottom repeat-x;display:block;float:left;height:29px}
+#headV3 #menuList #menuHome{height:29px;padding-left:10px;background:url(images/menuLeft.html) left bottom no-repeat}
+#headV3 #menuList #menuHere{background:url(images/menuHere.html) left bottom no-repeat;font-size:14px;font-weight:bold}
+#headV3 #menuList #menuHere a{color:#fff;display:block;float:left;height:29px;background:url(images/menuHereSide.html) right bottom no-repeat}
+#headV3 #menuList #menuHere a:hover{background:url(images/menuHere.html) left bottom no-repeat;color:#fff}
+a {
+	font-size: 12px;
+ 
+}
+a:visited {
+ 
+}
+.overflow1 {overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sideHeadGray {background:#f4f5f5;border:1px solid #dde0e1}
+.sideLineH {background:url(../../pics.paipai.com/index/lineH.gif) center repeat-x;margin:0 5px}
+.sideMore {right:10px;top:5px}
+.sideNull {margin-top:7px}
+.sideTitleGray {padding:7px 0 0 10px}

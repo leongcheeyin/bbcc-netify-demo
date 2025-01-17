@@ -1,0 +1,63 @@
+body { background:#FFF; text-align:center;}
+body,div,span,h1,h2,h3,h4,ul,li,img,p,b,textarea,input,select,form,a,table,tr,td
+{ margin:0; padding:0; list-style-type:none; font-size:12px; color:#424242; font-family:Arial, Helvetica, sans-serif; z-index:inherit;}
+img,table{ border:0; border-collapse:collapse;}
+a { color:#424242; text-decoration:none;}
+a:hover { color:#FF6600; text-decoration:underline;}
+.Head2{ width:950px; height:110px; text-align:left; margin:auto; position:relative; overflow:hidden; background:url(../images/header2_line_bg.gif) 0px 92px repeat-x;}
+.Head2 a:hover{ color:#ff6600; text-decoration:none;}
+.Head2 .logo{ position:absolute; left:20px; top:16px;}
+.Head2 .MenuTop{ margin-top:12px; margin-right:10px; float:right; display:inline; clear:both;}
+.Head2 .MenuTop li{
+	float:left;
+	height:29px;
+	margin:0 3px;
+	background:url(../images/header2_topnav_bg.gif) no-repeat right -29px;
+}
+
+.Head2 .MenuTop li.new{
+	float:left;
+	height:29px;
+	margin:0 3px;
+	background:none;
+}
+
+.Head2 .MenuTop li.new a{
+	display:block;
+	float:left;
+	padding:0px 15px 0px 0px;
+	height:29px;
+	line-height:29px;
+	color:#424242;
+	font-size:14px;
+	font-weight:bold;
+
+}
+
+
+.Head2 .MenuTop li b{ display:block; float:left; height:29px; background:url(../images/header2_topnav_bg.gif) no-repeat left 0px;}
+.Head2 .MenuTop li a{
+	display:block;
+	float:left;
+	padding:0px 15px 0px 30px;
+	height:29px;
+	line-height:29px;
+	color:#424242;
+	font-size:14px;
+	font-weight:bold;
+	background-image:url(../images/head2_bg.gif);
+	background-repeat:no-repeat;
+}
+.Head2 .MenuTop li a.ibuy{ background-position:8px 1px;}
+.Head2 .MenuTop li a.isell{ background-position:8px -27px;}
+.Head2 .MenuTop li a.imy{ background-position:8px -51px;}
+.Head2 .MenuTop li a.icsr{ background-position:8px -81px;}
+.Head2 .MenuTop li a.ihelp{ background-position:8px -109px;}
+.Head2 .MenuMain{ float:right; margin-top:15px; white-space:nowrap; margin-right:20px; display:inline; clear:both;}
+.Head2 .MenuMain .welcome{ display:inline;}
+.Head2 .MenuMain .name{ color:#ff6600; font-family:Arial, Helvetica, sans-serif;}
+.Head2 .MenuMain .cue { display:inline; margin-left:12px; padding-left:18px; background:url(../images/tag_06.gif) 0 0 no-repeat;}
+.Head2 .MenuMain .cue a{ color:#ff0000;}
+.Head2 .MenuMain .login{ display:inline; margin-left:12px;}
+.Head2 .MenuMain .login a{ margin-right:2px;}
+.Head2 .MenuMain a{ color:#1e8ec6; font-family:"SimSun";}

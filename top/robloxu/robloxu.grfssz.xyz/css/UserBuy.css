@@ -1,0 +1,111 @@
+	#BuyStarMenu{
+		width:980px;
+		margin:0 auto 0 auto;
+		background-color:#FFF3E7;
+		background-image:url(../HeadImages/BuyStarListBg.html);
+		background-repeat:repeat-x;
+		background-position:left center;
+		height:40px;
+	}
+
+	#BuyStarMenu li{
+		float:left;
+		height:40px;
+	}
+	
+	#BuyStarMenu li.Space{
+		float:left;
+		width:20px;
+	}
+	
+	#BuyStarMenu li.HotNameLine{
+		float:left;
+		width:60px;
+	}
+	
+	
+	#BuyStarMenu li.HotName{
+		margin-top:5px;
+
+		width:40px;
+		float:left;
+		border-right:1px solid #F60;
+		height:30px;
+		text-align:center;
+		line-height:15px;
+		
+		
+		font-family:Arial;
+		text-align:center;
+	}
+	
+	#BuyStarMenu li.HotName A{
+		color:#F60;
+		text-decoration:none;
+	}
+	
+	
+	#BuyStarMenu li.NoHotName{
+		float:left;
+		width:60px;
+		background-image:url(../HeadImages/BuyStarListNoLeft.html);
+		background-repeat:no-repeat;
+		background-position:left center;
+		
+		font-family:Arial;
+		text-align:center;
+		font-size:14px;
+		font-weight:bold;
+	}
+	#BuyStarMenu li.NoHotName A{
+		height:19px;
+		display:block;
+		background-image:url(../HeadImages/BuyStarListNoRight.html);
+		background-repeat:no-repeat;
+		background-position:right top;
+		margin:0 4px 0 1px;
+		padding:21px 10px 0px 10px;
+		
+		color:#FFF;
+		text-decoration:none;
+	}
+	#BuyStarMenu li.HaveHotName{
+		float:left;
+		width:60px;
+		background-image:url(../HeadImages/BuyStarListHaveLeft.html);
+		background-repeat:no-repeat;
+		background-position:left center;
+		
+		font-family:Arial;
+		text-align:center;
+		font-size:14px;
+		font-weight:bold;
+	}
+	#BuyStarMenu li.HaveHotName A{
+		height:19px;
+		display:block;
+		background-image:url(../HeadImages/BuyStarListHaveRight.html);
+		background-repeat:no-repeat;
+		background-position:right top;
+		margin:0 4px 0 1px;
+		padding:21px 10px 0px 10px;
+		
+		color:#F60;
+		text-decoration:none;
+	}
+	
+	/*
+	#BuyStarList{
+		width:940px;
+		margin:0 auto 0 auto;
+		line-height:30px;
+		padding-top:15px;
+	}
+	*/
+	#ibuy
+	{
+		width:960px;
+		margin:0 auto 0 auto;
+		line-height:24px;
+		
+	}

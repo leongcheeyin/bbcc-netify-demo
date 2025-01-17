@@ -1,0 +1,21 @@
+﻿
+	#MainFoot{
+		width:980px;
+		margin:0 auto 0 auto;
+		z-index:88;
+		clear:both;
+	}
+	
+#MainFoot .footerline{ width:100%; height:15px; display:block; background-color:#f0f0f0; margin-top:20px; overflow:hidden;}
+#MainFoot .footer{ width:100%; color:#545454; text-align:center; margin-top:22px; margin-bottom:24px; overflow:hidden;}
+#MainFoot .footer .link a{ color:#545454; margin:0px 4px 0px 4px;}
+#MainFoot .footer .link a:hover{ color:#FF6600;}
+#MainFoot .footer .box{ margin:auto; width:660px; margin-top:5px; text-align:center;}
+#MainFoot .footer .box .t1{ float:left; width:180px; margin-top:8px;}
+#MainFoot .footer .box .t2{ float:right; width:180px; margin-top:4px; text-align:right; }
+#MainFoot .footer .subbox{ width:300px; float:left; line-height:22px;}
+#MainFoot .footer .subbox li{clear:both;width:300px; line-height: 22px} 
+#MainFoot .footer .top { background:url(../images/top.html) right 0px no-repeat; padding-right:10px;}
+#MainFoot .footer .top a{ color:#0086b9;}
+#MainFoot .footer .ec{ background:url(../images/footer_etrust_logo.html) 0px 0px no-repeat; padding-left:14px;}
+		

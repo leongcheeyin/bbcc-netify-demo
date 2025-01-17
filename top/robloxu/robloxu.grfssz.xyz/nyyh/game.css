@@ -1,0 +1,72 @@
+*{padding:0px; margin:0px }
+body{ font-size:12px; text-align:left; font-family:"ËÎÌå"  }
+li,ul,ol,dl{ list-style:none;}
+li,select,textarea,input{ vertical-align:middle;}
+a{ text-decoration:none; color:#666;}
+a:hover{ color:#ff6701;}
+img{ border:0px;}
+.frame{width:960px; margin:0 auto}
+.game_ad{width:960px; height:75px}
+.game_top{width:960px; height:30px; border-bottom:2px solid #033970; margin-top:5px}
+.top_title{width:100px; height:29px; line-height:29px; border-left:5px solid #033970; padding-left:5px; font-size:14px; font-weight:bold}
+.game_left{float:left}
+.left_top{width:255px; height:30px; border-bottom:1px solid #dfdfdf}
+.busn_top{width:470px; height:30px; border-bottom:1px solid #dfdfdf}
+.str_top{width:220px; height:30px; border-bottom:1px solid #dfdfdf; }
+.left_title{width:55px; height:30px; border-bottom:1px solid #a0a0a0; text-align:left; color:#f90; font-weight:bold; line-height:30px; float:left}
+.busn_title{width:65px; height:30px; border-bottom:1px solid #a0a0a0; text-align:left; color:#f90; font-weight:bold; line-height:30px; float:left }
+.ga_more a{ float:right; line-height:30px}
+.ga_more a:hover{text-decoration:underline; color:#666}
+.zt_let{width:125px; height:75px; float:left; margin-right:5px; position:relative}
+.zt_let div {width:125px; height:20px;  position:absolute;  background:url(trans.gif); padding-top:55px;left:0; top:0;}
+.zt_let div b{display:block; width:125px; height:20px; position:absolute;z-index:1; background:#333; filter: alpha(opacity=50);
+ filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); opacity:0.50; cursor:pointer}
+.xxx{width:125px; height:20px; line-height:20px; color:#fff;  text-align:center; position:absolute; z-index:999; overflow:hidden}
+.xxx:hover{text-decoration:underline}
+.game_new{width:243px; height:30px; line-height:30px; padding-left:10px}
+.game_newa{width:243px; height:30px; line-height:30px; padding-left:10px; background:#f3f3f3}
+.game_new a{width:233px; height:30px; overflow:hidden;  display:block}
+.game_newa a{width:233px; height:30px; overflow:hidden;display:block}
+.busn_god{width:100px; height:30px; border-left:1px solid #D0D0D0; float:left; display:block; color:#666; line-height:30px; text-align:center; cursor:pointer; background:#f8f8f8; }
+.busn_godd{ border-top:2px solid #F90; margin-top:-2px; border-bottom:1px solid #fff; background:#fff; color:#f90}
+.god_pic{width:90px; height:90px; border-bottom:1px solid #efefef; border-right:1px solid #efefef;;display:block; float:left; padding-left:13px;padding-right:13px; padding-bottom:5px}
+.god_name{width:90px; height:20px; line-height:20px; text-align:center}
+.god_pic a:hover{text-decoration:underline; color:#666}
+.god_list{width:470px; height:auto; overflow:hidden; border-left:1px solid #efefef}
+#ept_a, #count_a{display:none}
+
+.dr_font{font-family:"Î¢ÈíÑÅºÚ"; color:#a2a1a1; font-size:16px; float: left}
+.dr_e{font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; color:#ff5614; float:left; line-height:25px; height:30px}
+.dr_k{width:470px; height:100px; border:1px solid #e2e0de;  }
+<!--ÕÐÄ¼-->
+#featureContainer {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; MARGIN: 0px auto; WIDTH: 470px; FONT-SIZE: 80%; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#wrap {
+	OVERFLOW: hidden
+}
+#load {
+	BACKGROUND-IMAGE: url(loader32x32.gif); BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; MARGIN: 0px auto; WIDTH: 490px; DISPLAY: none; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center 50%; HEIGHT: 100px; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#feature .prev { TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url(game_ic.gif) no-repeat 0px 0px; FLOAT: left; HEIGHT: 24px; margin-top:-60px}
+#feature .next { TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url(game_ic.gif) no-repeat -24px 0px; FLOAT: right; HEIGHT: 24px; margin-top:-60px}
+#feature .prev:hover {BACKGROUND-POSITION:0px -24px}
+#feature .next:hover {BACKGROUND-POSITION: -24px -24px}
+.featureUL {POSITION: relative;  LIST-STYLE-TYPE: none;   WIDTH: 2800px;  FLOAT: left; }
+.featureBox {WIDTH: 135px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT:80px; OVERFLOW: hidden; margin-top:10px; margin-right:5px}
+
+#block {
+	Z-INDEX: 0; BORDER-BOTTOM: #999 0px dotted; POSITION: relative; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 420px; PADDING-RIGHT: 0px; HEIGHT: 100px; FONT-SIZE: 70%; OVERFLOW: hidden; 
+}
+
+.bus_rz{width:218px; border:1px solid #dfdfdf; margin-top:2px}
+.s_ic{width:80px; height:20px; line-height:20px; color:#fff; text-align:center; background: #d74937; float:left}
+.s_word a{height:20px; line-height:20px; float:left; width:138px; text-align:center; background:#f8f8f8}
+.s_number{width:15px; height:15px; border:1px solid #ccc; display:block; text-align:center; font-family:Arial, Helvetica, sans-serif; font-weight:normal; line-height:15px; color:#999; float:left }
+.s_numberr{background:#d10707; color:#fff; border:1px solid #d10707; font-weight:bold}
+.s_text a{line-height:20px; float:left; margin-left:10px; width:170px; display:block; overflow:hidden; height:20px}
+.s_mind{ height:auto; border-bottom:1px dotted #ccc; width:210px; margin:0 auto; background:#fff; padding:8px 0;_padding:5px 0; _padding-bottom:5px; }
+.s_price{font-family:Arial, Helvetica, sans-serif; color:#f60; line-height:30px; margin-left:10px; font-weight:bold; width:60px; text-align:center}
+.text_mind{width:180px; margin:0 auto}
+.s_buy{width:50px; height:20px; line-height:20px; text-align:center; background:#e84310; display:block; color:#fff; margin-left:10px; padding-left:5px; padding-right:5px; cursor:pointer}
+.s_buyy{background:#d74937}

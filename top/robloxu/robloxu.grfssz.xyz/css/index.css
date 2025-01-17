@@ -1,0 +1,230 @@
+/* CSS Document */
+body { margin:0px; background:#FFF; text-align:center;}
+table,div,input,select,textarea { font-size:12px; color:#424242; font-family:Arial, Helvetica, sans-serif;}
+img { border:0px;}
+form{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6,ul,li,p { margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;}
+h1,h2,h3 { font-size:14px;}
+h4,h5 { font-size:12px;}
+h3,h5 { font-weight:normal;}
+li { list-style-type:none;margin:0;padding:0;}
+
+a { color:#424242; text-decoration:none;}
+a:link { color:#424242; text-decoration:none; }
+a:hover { color:#FF6600; text-decoration:underline;}
+
+a.nav_wordlink{ color:#0270A5; text-decoration:none;}
+a.nav_wordlink:link { color:#0270A5; text-decoration:none; }
+a.nav_wordlink:hover { color:#FF6600; text-decoration:none;}
+
+a.morelink{ color:#213d85; text-decoration:none;}
+a.morelink:link { color:#213d85; text-decoration:none; }
+a.morelink:hover { color:#FF6600; text-decoration:none;}
+
+a.top{ color:#ff6600; text-decoration:none;}
+a.top:link { color:#ff6600; text-decoration:none; }
+a.top:hover { color:#FF0000; text-decoration:underline;}
+
+#mainbody{margin:0 auto;padding:0px 5px;clear:both;}
+/*top*/
+#mainbody #top{margin:0 auto;height:87px;clear:both;}
+#mainbody #top .logo{float:left;margin-top:15px;margin-left:10px;}
+#mainbody #top .topword{float:right;margin-top:20px;margin-right:10px;}
+#mainbody #top .topword li{margin-top:5px;}
+/*nav*/
+#mainbody #nav{margin:0 auto;width:100%;height:40px;background:url(../images/nav_bg.gif) repeat-x;clear:both;}
+#mainbody #nav .nav_left{float:left;width:100%;height:40px;background:url(../images/nav_left.html) no-repeat;}
+#mainbody #nav .nav_right{float:left;height:40px;width:100%;background:url(../images/nav_right.html) no-repeat;background-position:right;}
+#mainbody #nav .nav_right .nav_content{float:left;height:32px;width:100%;margin-top:0px;}
+#mainbody #nav .nav_right .nav_content ul{height:32px;margin:0;padding:8px 0px 0px 30px;}
+#mainbody #nav .nav_right .nav_content ul li{height:32px;float:left;margin-right:5px;width:90px;}
+#mainbody #nav .nav_right .nav_content ul li a{height:32px;color:#fff;font-size:12px;font-weight:bold;line-height:22px;text-decoration:none;text-align:center;}
+#mainbody #nav .nav_right .nav_content ul li a span{padding:8px 8px 0px 8px;display:block;}
+#mainbody #nav .nav_right .nav_content ul li a:hover{display:block;background:url(../images/btn_nav_bg.gif) no-repeat;color:#333;}
+#mainbody #nav .nav_right .nav_content ul li a:hover span{}
+#mainbody #nav .nav_right .nav_content ul li.Current a{display:block;background:url(../images/btn_nav_bg.gif) no-repeat;}
+#mainbody #nav .nav_right .nav_content ul li.Current a span{}
+#mainbody #nav .nav_right .nav_content ul li.Current a:hover{color:#ffff00;font-weight:bold;}
+#mainbody .nav_bz { position:absolute;left:78%;top:86px;width:162px;height:24px;margin-top:8px;}
+
+/*search_box*/
+#mainbody #search_box{margin:0 auto;height:81px;width:100%;background-color:#f0f3f7;clear:both;}
+#mainbody #search_box .search_part_left{float:left;height:81px;width:75%;background-color:#f1f1f4;}
+#mainbody #search_box .search_part_left .search_left_part1{float:left;height:30px;width:90%;margin-top:10px;padding-left:20px;text-align:left;}
+#mainbody #search_box .search_part_left .search_left_part1 .text_input{width:300px;height:18px;border:1px solid #B7BBBE;background-color:#fff;color:#333;font-size:12px;}
+#mainbody #search_box .search_part_left .search_left_part1 .btn_search{width:90px;height:22px;background:url(../images/search_btn.gif) no-repeat;color:#802a00;font-size:12px;border:0;margin:0;padding:0}
+
+#mainbody #search_box .search_part_left .search_left_part2{float:left;height:30px;width:90%;margin-top:10px;padding-left:20px;text-align:center;}
+#mainbody #search_box .search_part_left .search_left_part2 ul{list-style-type:disc;height:30px;margin:0;padding:0px 0px 0px 30px;}
+#mainbody #search_box .search_part_left .search_left_part2 ul li{height:30px;float:left;margin-right:5px;}
+#mainbody #search_box .search_part_left .search_left_part2 ul li a{height:30px;color:#424242;font-size:12px;text-decoration:none;text-align:center;}
+#mainbody #search_box .search_part_left .search_left_part2 ul li a:hover{color:#424242;text-decoration:underline;}
+#mainbody #search_box .search_part_right{float:right;height:81px;width:24%;background:url(../images/kf_pic.html) no-repeat; background-position:right;}
+/*dh_word*/
+#mainbody #dh{float:left;margin:0 auto;height:14px;width:100%;text-align:left;margin-top:5px;clear:both;}
+/*main_content*/
+#mainbody #main{float:left;margin:0 auto;width:100%;text-align:left;margin-top:5px;background-color:#fff;clear:both;}
+#mainbody #main .left_part{float:left;width:26%;text-align:left;background-color:#f2f5f6;}
+#mainbody #main .right_part{float:right;width:72%;margin-left:1%;height:100%;text-align:left;background-color:#f2f5f6;}
+
+/*left_part1*/
+#mainbody #main .left_part .part1{float:left;width:100%;text-align:left;overflow:hidden;clear:both;}
+#mainbody #main .left_part .part1 .part1_title{float:left;width:100%;height:39px;text-align:left;background:url(../images/title_bg.gif) repeat-x;clear:both;}
+#mainbody #main .left_part .part1 .part1_title .part1_title_left{float:left;width:100%;height:39px;text-align:left;background:url(../images/title_left_logo.gif) no-repeat;background-position:left;clear:both;}
+#mainbody #main .left_part .part1 .part1_title .part1_title_left .part1_title_right{text-align:left;float:left;width:100%;height:39px;text-align:left;background:url(../images/title_right.gif) no-repeat;background-position:right;}
+#mainbody #main .left_part .part1 .part1_title .part1_title_left .part1_title_right .part1_title_word{float:left;width:100%;height:18px;margin-top:13px;text-align:left;color:#fff;font-size:14px;font-weight:bold;line-height:18px;}
+#mainbody #main .left_part .part1 .part1_title .part1_title_left .part1_title_right .part1_title_more{float:right;width:59px;height:18px;margin-right:5px;padding-top:1px;margin-top:13px;text-align:center;background:url(../images/title_more.gif) no-repeat;color:#213d85;font-size:12px;line-height:18px;letter-spacing:2px;}
+
+#mainbody #main .left_part .part1 .content{float:left;width:100%;text-align:left;background:url(../images/right_part_cont_topbg.gif) repeat-x;color:#213d85;font-size:12px;clear:both;}
+#mainbody #main .left_part .part1 .content ul{margin:0;padding:10px 0px 0px 30px;}
+#mainbody #main .left_part .part1 .content ul li{CLEAR: both;height:24px;padding:0px 5px 0px 20px;background:url(../images/dott_1.gif) no-repeat;TEXT-ALIGN: left;padding-right:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/*2008-1-10 help_list_style2*/
+#mainbody #main .left_part .part1 .content ul.list2 li {CLEAR: both;height:33px;line-height:35px;padding:0px 5px 0px 30px;background:url(../images/list_bg.jpg) no-repeat;TEXT-ALIGN: left;padding-right:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#mainbody #main .left_part .part1 .content ul.list2 li.childli{CLEAR: both;height:22px;line-height:22px;padding:0px 5px 0px 30px;margin-top:5px;margin-bottom:5px;background:url(../images/list_2_bg.jpg) no-repeat;TEXT-ALIGN: left;padding-right:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#mainbody #main .left_part .part1 .content ul.list2 li a{color:#1835d1;font-size:14px;font-weight:bold;text-decoration:none;}
+#mainbody #main .left_part .part1 .content ul.list2 li.childli a:hover{color:#ff6600;text-decoration:underline;}
+#mainbody #main .left_part .part1 .content ul.list2 li a.childlink{color:#1835d1;font-size:12px;font-weight:normal;text-decoration:none;}
+#mainbody #main .left_part .part1 .content ul.list2 li.childli a.childlink:hover{color:#ff6600;text-decoration:underline;}
+
+#mainbody #main .left_part .part1 .content ul li a{color:#424242;font-size:14px;text-decoration:none;}
+#mainbody #main .left_part .part1 .content ul li a:hover{color:#ff6600;text-decoration:underline;}
+/*news_list_left_ul_style*/
+#mainbody #main .left_part .part1 .content2{float:left;width:100%;text-align:left;background:url(../images/right_part_cont_topbg.gif) repeat-x;color:#213d85;font-size:12px;clear:both;}
+#mainbody #main .left_part .part1 .content2 ul{margin:0;padding:10px 0px 0px 30px;}
+#mainbody #main .left_part .part1 .content2 ul li{CLEAR: both;height:24px;padding:0px 5px 0px 20px;background:url(../images/dott_3.gif) no-repeat;TEXT-ALIGN: left}
+#mainbody #main .left_part .part1 .content2 .childli{CLEAR: both;height:24px;margin-left:10px;padding:0px 5px 0px 20px;background:url(../images/04.html) no-repeat;TEXT-ALIGN: left}
+#mainbody #main .left_part .part1 .content2 ul li a{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#424242;font-size:14px;text-decoration:none;}
+#mainbody #main .left_part .part1 .content2 ul li a:hover{color:#ff6600;text-decoration:underline;}
+
+/*2008-1-10 help_list_style2*/
+#mainbody #main .left_part .part1 .content2 ul.list2 li {CLEAR: both;height:33px;line-height:35px;padding:0px 5px 0px 30px;background:url(../images/list_bg.jpg) no-repeat;TEXT-ALIGN: left;padding-right:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#mainbody #main .left_part .part1 .content2 ul.list2 li.childli{CLEAR: both;height:22px;line-height:22px;padding:0px 5px 0px 30px;margin-top:5px;margin-bottom:5px;background:url(../images/list_2_bg.jpg) no-repeat;TEXT-ALIGN: left;padding-right:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#mainbody #main .left_part .part1 .content2 ul.list2 li a{color:#1835d1;font-size:14px;text-decoration:none;}
+#mainbody #main .left_part .part1 .content2 ul.list2 li.childli a:hover{color:#ff6600;text-decoration:underline;}
+#mainbody #main .left_part .part1 .content2 ul.list2 li a.childlink{color:#1835d1;font-size:12px;font-weight:normal;text-decoration:none;}
+#mainbody #main .left_part .part1 .content2 ul.list2 li.childli a.childlink:hover{color:#ff6600;text-decoration:underline;}
+
+/*right_part1*/
+#mainbody #main .right_part .part1 .part1_title{float:left;width:100%;height:39px;text-align:left;background:url(../images/title_bg.gif) repeat-x;clear:both;}
+#mainbody #main .right_part .part1 .part1_title .part1_title_left{float:left;width:100%;height:39px;text-align:left;background:url(../images/title_left_logo.gif) no-repeat;background-position:left;clear:both;}
+#mainbody #main .right_part .part1 .part1_title .part1_title_left .part1_title_right{text-align:left;float:left;width:100%;height:39px;text-align:left;background:url(../images/title_right.gif) no-repeat;background-position:right;}
+#mainbody #main .right_part .part1 .part1_title .part1_title_left .part1_title_right .part1_title_word{float:left;width:120px;height:18px;margin-top:13px;text-align:left;color:#fff;font-size:14px;font-weight:bold;line-height:18px;}
+#mainbody #main .right_part .part1 .part1_title .part1_title_left .part1_title_right .part1_title_more{float:right;width:59px;height:18px;margin-right:5px;padding-top:1px;margin-top:13px;text-align:center;background:url(../images/title_more.gif) no-repeat;color:#213d85;font-size:12px;line-height:18px;letter-spacing:2px;}
+#mainbody #main .right_part .part1 .part1_title .part1_title_left .part1_title_right .part1_title_tszx{float:right;width:154px;height:24px;margin-right:5px;margin-top:10px;}
+
+
+/*new_user_help*/
+#mainbody #main .right_part .part1 .part1_content{float:left;width:100%;text-align:left;clear:both;}
+#mainbody #main .right_part .part1 .part1_content .top_tsword{float:left;width:90%;padding-left:10%;height:10px;margin:2px auto;text-align:left;color:#1835d1;font-size:14px;clear:both;}
+#mainbody #main .right_part .part1 .part1_content .main_cont{float:left;width:98%;padding-left:2%;margin:0 auto;}
+#mainbody #main .right_part .part1 .part1_content .main_cont .help{float:left;width:100%;height:60px;margin:5px auto;text-align:center;}
+#mainbody #main .right_part .part1 .part1_content .main_cont .help .help_word{float:left;width:40px;height:40px;padding-top:20px;color:#333;font-weight:bold;}
+#mainbody #main .right_part .part1 .part1_content .main_cont .help .help_pic{float:left;width:126px;height:53px;}
+#mainbody #main .right_part .part1 .part1_content .main_cont .help .help_arrow{float:left;width:50px;height:53px;background:url(../images/buyer_help_arrow.gif) no-repeat;background-position:17px;}
+
+/*common help question nav*/
+#mainbody #main .right_part .part1 .part1_content .nav{float:left;width:100%;height:30px;text-align:left;clear:both; background:url(../images/nav_bg.html) repeat-x;}
+#mainbody #main .right_part .part1 .part1_content .nav ul{float:left;margin:0px;padding:0px;text-align:center;}
+#mainbody #main .right_part .part1 .part1_content .nav ul li{float:left;width:72px;height:25px;margin:0px;padding-top:5px;text-align:center;}
+#mainbody #main .right_part .part1 .part1_content .nav ul li a{font-size:12px;color:#115204;text-decoration:none;}
+#mainbody #main .right_part .part1 .part1_content .nav ul li a:hover{font-size:12px;color:#ff6600;text-decoration:none;}
+#mainbody #main .right_part .part1 .part1_content .nav ul{float:left;margin:0px;padding:0px;text-align:center;}
+#mainbody #main .right_part .part1 .part1_content .nav ul li.on{float:left;width:72px;margin:0px;text-align:center;background:url(../images/nav_btn_bg2.html) repeat-x;}
+#mainbody #main .right_part .part1 .part1_content .nav ul li.on a{font-size:12px;color:#ff6600;text-decoration:none;}
+#mainbody #main .right_part .part1 .part1_content .nav ul li.on a:hover{font-size:12px;color:#ff6600;text-decoration:none;}
+
+/*button_region_make by mike(2008-1-31) */
+
+#mainbody #main .right_part .part1 .part1_content .main_cont .btn_bk_top{float:left;width:660px;height:42px;margin:5px auto;text-align:left;clear:both;}
+#mainbody #main .right_part .part1 .part1_content .main_cont .btn_bk_main{float:left;width:660px;height:42px;margin:5px auto;clear:both;}
+#mainbody #main .right_part .part1 .part1_content .main_cont .btn_bk_main .button_div{float:left;width:205px;height:42px;margin-right:15px;}
+#mainbody #main .right_part .part1 .part1_content .main_cont .btn_bk_bottom{float:left;width:660px;height:42px;margin:5px auto;text-align:left;clear:both;}
+
+
+/*
+#mainbody #main .right_part .part1 .part1_title ul{height:86px;margin:0px;padding:0px;}
+#mainbody #main .right_part .part1 .part1_title li{height:86px;margin:0px;padding:0px;float:left;}*/
+
+#mainbody #main .right_part .part1 .part1_content{float:left;width:100%;text-align:left;clear:both;}
+#mainbody #main .right_part .part1 .part1_content .part1_content_left{float:left;width:20%;text-align:left;}
+#mainbody #main .right_part .part1 .part1_content .part1_content_left img{border:0;margin-top:40px;margin-left:10px;}
+#mainbody #main .right_part .part1 .part1_content .part1_content_right{float:left;width:80%;text-align:left;}
+#mainbody #main .right_part .part1 .part1_content .part1_content_right .topcontent{float:left;width:100%;height:25px;margin-top:5px;text-align:left;color:#666;font-size:14px;font-weight:bold;clear:both;}
+#mainbody #main .right_part .part1 .part1_content .part1_content_right .maincontent{float:left;width:100%;text-align:left;clear:both;}
+#mainbody #main .right_part .part1 .part1_content .part1_content_right .maincontent .maincont_pt1{float:left;width:45%;margin-left:1%;text-align:left;}
+#mainbody #main .right_part .part1 .part1_content .part1_content_right .maincontent .maincont_pt1 ul{PADDING:9px 0px 0px 0px;}
+#mainbody #main .right_part .part1 .part1_content .part1_content_right .maincontent .maincont_pt1 ul li{CLEAR: both; BACKGROUND: url(../images/li.html) repeat-x 50% bottom; HEIGHT: 22px;TEXT-ALIGN: left}
+#mainbody #main .right_part .part1 .part1_content .part1_content_right .maincontent .maincont_pt1 .text{padding:4px 0px 0px 10px; FONT-SIZE: 14px; BACKGROUND: url(../images/dott_2.html) no-repeat 2px 11px;FLOAT: left;TEXT-ALIGN: left}
+#mainbody #main .right_part .part1 .part1_content .part1_content_right .maincontent .maincont_pt1 ul li a{color:#424242;font-size:12px;text-decoration:none;text-align:center;}
+#mainbody #main .right_part .part1 .part1_content .part1_content_right .maincontent .maincont_pt1 ul li a:hover{color:#424242;text-decoration:underline;}
+#mainbody #main .right_part .part1 .part1_content .part1_content_right .maincontent .maincont_pt2{float:left;width:45%;margin-left:5%;text-align:left; background-color:#333333}
+#mainbody #main .right_part .part1 .part1_content .part1_content_right .bottomcontent{float:left;width:93%;height:14px;line-height:14px;margin-top:4px;text-align:right;clear:both;color:#666;font-size:12px;font-weight:bold; font-family:ËÎÌו;}
+/*right_part2*/
+#mainbody #main .right_part .part2{float:left;width:100%;text-align:left;}
+#mainbody #main .right_part .part2 .part2_title{float:left;width:100%;height:39px;text-align:left;background:url(../images/title_bg.gif) repeat-x;clear:both;}
+#mainbody #main .right_part .part2 .part2_title .part2_title_left{float:left;width:100%;height:39px;text-align:left;background:url(../images/title_left_logo.gif) no-repeat;background-position:left;clear:both;}
+#mainbody #main .right_part .part2 .part2_title .part2_title_left .part2_title_right{text-align:left;float:left;width:100%;height:39px;text-align:left;background:url(../images/title_right.gif) no-repeat;background-position:right;}
+#mainbody #main .right_part .part2 .part2_title .part2_title_left .part2_title_right .part2_title_word{float:left;width:420px;height:18px;margin-top:13px;text-align:left;color:#fff;font-size:14px;font-weight:bold;line-height:18px;}
+#mainbody #main .right_part .part2 .part2_title .part2_title_left .part2_title_right .part2_title_more{float:right;width:59px;height:18px;margin-right:5px;padding-top:1px;margin-top:13px;text-align:center;background:url(../images/title_more.gif) no-repeat;color:#213d85;font-size:12px;line-height:18px;letter-spacing:2px;}
+#mainbody #main .right_part .part2 .part2_title .part2_title_left .part2_title_right .part2_title_tszx{float:right;width:154px;height:24px;margin-right:5px;margin-top:10px;}
+
+#mainbody #main .right_part .part2 .content{float:left;width:100%;text-align:left;background:url(../images/right_part_cont_topbg.gif) repeat-x;color:#213d85;font-size:12px;clear:both;}
+#mainbody #main .right_part .part2 .content .cont_pt1{float:left;width:45%;margin-left:2%;text-align:left;}
+#mainbody #main .right_part .part2 .content .cont_pt1 ul{PADDING:9px 0px 0px 0px;}
+#mainbody #main .right_part .part2 .content .cont_pt1 ul li{CLEAR: both;HEIGHT: 22px;TEXT-ALIGN: left}
+#mainbody #main .right_part .part2 .content .cont_pt1 .pic{padding:5px 0px 0px 5px; color:#005700;FONT-SIZE: 12px;font-weight:bold;FLOAT: left;TEXT-ALIGN:center;width:80px;height:21px;BACKGROUND: url(../images/btn_bg1.html) no-repeat;} /*;*/
+#mainbody #main .right_part .part2 .content .cont_pt1 .text{padding:4px 0px 0px 10px; FONT-SIZE: 14px; FLOAT: left;TEXT-ALIGN: left} /*BACKGROUND: url(../images/dott_2.gif) no-repeat 2px 11px;*/
+#mainbody #main .right_part .part2 .content .cont_pt1 ul li a{color:#0270A5;font-size:12px;text-decoration:none;text-align:center;}
+#mainbody #main .right_part .part2 .content .cont_pt1 ul li a:hover{color:#ff6600;text-decoration:underline;}
+
+/*news_list_right_content_style*/
+#mainbody #main .right_part .part2 .content2{float:left;width:100%;text-align:left;background:url(../images/right_part_cont_topbg.gif) repeat-x;color:#213d85;font-size:12px;clear:both;}
+#mainbody #main .right_part .part2 .content2 .cont_part1{float:left;width:100%;text-align:left;color:#213d85;font-size:12px;clear:both;}
+#mainbody #main .right_part .part2 .content2 .cont_part1 ul{margin:0;padding:10px 0px 0px 30px;}
+#mainbody #main .right_part .part2 .content2 .cont_part1 ul li{CLEAR: both;padding:0px 5px 0px 20px;height:22px;background:url(../images/dott_1.gif) no-repeat;TEXT-ALIGN: left}
+#mainbody #main .right_part .part2 .content2 .cont_part1 ul li a{color:#424242;font-size:12px;text-decoration:none;}
+#mainbody #main .right_part .part2 .content2 .cont_part1 ul li a:hover{color:#ff6600;text-decoration:underline;}
+/*search_detail_style*/#mainbody #main .right_part .part2 .content2 .cont_part1_searchdetail{float:left;width:92%;margin-left:20px;margin-top:10px;text-align:left;color:#666;font-size:14px;line-height:24px;clear:both;}
+#mainbody #main .right_part .part2 .content2 .cont_part2{float:left;width:100%;line-height:22px;margin-top:4px;margin-bottom:4px;text-align:left;clear:both;}
+#mainbody #main .right_part .part2 .content2 .cont_part2 ul{margin:0;padding:2px 0px 0px 30px;}
+#mainbody #main .right_part .part2 .content2 .cont_part2 ul li{CLEAR: both;height:24px;padding:0px 5px 0px 20px;TEXT-ALIGN: left}
+#mainbody #main .right_part .part2 .content2 .cont_part2 ul li a{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#0047eb;font-size:12px;text-decoration:none;}
+#mainbody #main .right_part .part2 .content2 .cont_part2 ul li a:hover{color:#121212;font-weight:bold;text-decoration:underline;}
+#mainbody #main .right_part .part2 .content2 .cont_part2 ul li .page_text{color:#000;border:1px solid #b2b2b2;width:30px;}
+/*help_detail_style*/
+#mainbody #main .right_part .part2 .content3{float:left;width:100%;text-align:left;background:url(../images/right_part_cont_topbg.gif) repeat-x;color:#213d85;font-size:12px;clear:both;}
+#mainbody #main .right_part .part2 .content3 .cont_pt1{float:left;width:90%;margin-left:2%;height:100%;text-align:left;}
+#mainbody #main .right_part .part2 .content3 .cont_pt1 ul{height:100%;PADDING:10px 0px 10px 0px;}
+#mainbody #main .right_part .part2 .content3 .cont_pt1 ul li{CLEAR: both;TEXT-ALIGN: left}
+#mainbody #main .right_part .part2 .content3 .cont_pt1 .text1{width:95%;height:22px;padding:5px 0px 0px 5px;color:#2f54a0;FONT-SIZE: 12px;font-weight:bold;FLOAT: left;TEXT-ALIGN:left;clear:both;} /*;*/
+#mainbody #main .right_part .part2 .content3 .cont_pt1 .text2{width:95%;padding:5px 0px 0px 5px; color:#666;FONT-SIZE: 12px;line-height:24px; FLOAT: left;TEXT-ALIGN: left;clear:both;} /*BACKGROUND: url(../images/dott_2.gif) no-repeat 2px 11px;*/
+#mainbody #main .right_part .part2 .content3 .cont_pt1 ul li a{color:#666;font-size:12px;text-decoration:none;text-align:center;}
+#mainbody #main .right_part .part2 .content3 .cont_pt1 ul li a:hover{color:#ff6600;text-decoration:underline;}
+
+/*#mainbody #main .right_part .part2 .content3 {float:left;height:100%;width:90%;line-height:22px;margin-top:4px;margin-bottom:4px;font-color:#666;text-align:left;clear:both;}
+#mainbody #main .right_part .part2 .content2 .cont_part2{float:left;width:100%;text-align:left;color:#666;font-size:12px;clear:both;}
+#mainbody #main .right_part .part2 .content3 .cont_part2 ul{width:100%;margin:0;padding:2px 0px 0px 30px;}
+#mainbody #main .right_part .part2 .content3 .cont_part2 ul li{CLEAR: both;height:24px;padding:0px 5px 0px 20px;TEXT-ALIGN: left}
+#mainbody #main .right_part .part2 .content3 .cont_part2 ul li a{color:#0047eb;font-size:12px;text-decoration:none;}
+#mainbody #main .right_part .part2 .content3 .cont_part2 ul li a:hover{color:#121212;font-weight:bold;text-decoration:underline;}
+#mainbody #main .right_part .part2 .content3 .cont_part2 .text{color:#2f54a0;height:22px;line-height:22px;font-size:12px;font-weight:bold;clear:both;}
+#mainbody #main .right_part .part2 .content3 .cont_part2 .text2{color:#666;line-height:22px;font-size:12px;clear:both;}*/
+
+
+/* footer */
+#mainbody #bottom{float:left;width:100%;margin:auto;margin-top:5px;}
+#mainbody #bottom .footerline{ width:100%; height:15px; display:block; background-color:#f0f0f0; margin-top:20px; overflow:hidden;}
+#mainbody #bottom .footer{ width:100%; color:#545454; text-align:center; margin-top:22px; margin-bottom:24px; overflow:hidden;}
+#mainbody #bottom .footer .link a{ color:#545454; margin:0px 4px 0px 4px;}
+#mainbody #bottom .footer .link a:hover{ color:#FF6600;}
+#mainbody #bottom .footer .top {background:url(images/top.html) right 0px no-repeat; padding-right:10px;}
+#mainbody #bottom .footer .top a{ color:#0086b9;}
+#mainbody #bottom .footerbox1{ margin:auto; width:670px; margin-top:5px; text-align:center;}
+#mainbody #bottom .footerbox1 .t1{ display:block; width:180px; float:left; margin-top:8px; text-align:center;}
+#mainbody #bottom .footerbox1 .t2{ display:block; width:190px; float:right; margin-top:8px; text-align:center;}
+#mainbody #bottom .footerbox2{ display:block; width:300px; text-align:center; float:left; line-height:22px;}
+
+/*TCG*/
+.Hidden{display:none;}
+
+
